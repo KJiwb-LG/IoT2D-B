@@ -1,0 +1,32 @@
+[
+    {
+        "userID": 1,
+        "name": "\u5c0f\u660e",
+        "type": "\u672a\u9a8c\u8bc1"
+    },
+    {
+        "userID": 2,
+        "name": "xkc",
+        "type": "\u5df2\u9a8c\u8bc1"
+    },
+    {
+        "userID": 3,
+        "name": "yzy",
+        "type": "\u672a\u9a8c\u8bc1"
+    },
+    {
+        "userID": 4,
+        "name": "ljy",
+        "type": "\u5df2\u9a8c\u8bc1"
+    },
+    {
+        "userID": 5,
+        "name": "\u5f20\u4e09",
+        "type": "\u5df2\u9a8c\u8bc1"
+    },
+    {
+        "userID": 6,
+        "name": "kyle",
+        "type": "\u672a\u9a8c\u8bc1"
+    }
+]

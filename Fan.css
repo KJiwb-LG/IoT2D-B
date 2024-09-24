@@ -1,0 +1,155 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    height: 100vh;  
+}  
+  
+header {  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;  
+    margin-bottom: 10px;  
+    color: #ffffff;
+    background-color: #b7d8ec; /* 可选，为主标题添加背景色 */ 
+    width: 100%; 
+}  
+  
+.container {  
+    display: flex;  
+    width: 90%;  
+    max-width: 1200px;  
+    margin: 0 auto;  
+}  
+  
+.sidebar {  
+    width: 250px; /* 设定一个具体的宽度 */  
+    padding: 20px;  
+    background-color: #f4f4f4;  
+    border-right: 1px solid #ddd;  
+}  
+  
+.sidebar ul {  
+    list-style-type: none;  
+    height: 100%; /* 如果需要列表占满侧栏高度 */  
+    padding: 0;  
+}  
+  
+.sidebar li {  
+    margin-bottom: 30px;  
+}  
+  
+.sidebar a {  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    text-decoration: none;  
+    color: #333;  
+    font-weight: bold;  
+    display: block; /* 使链接占据整行 */  
+    padding: 8px;  
+    border-radius: 4px; /* 可选，为链接添加圆角 */  
+    transition: background-color 0.3s; /* 可选，为鼠标悬停效果添加过渡 */  
+}  
+
+.sidebar a:hover {  
+    background-color: #b7d8ec; /* 鼠标悬停时的背景色 */  
+}  
+  
+.main-content {  
+    width: 75%;  
+    padding: 20px;  
+    flex-grow: 1; /* 使主内容区域占据剩余空间 */  
+}  
+
+.fan-time {  
+    margin-bottom: 20px;  
+}  
+
+.fan-time label {  
+    display: block;  
+    margin-bottom: 5px;  
+}  
+  
+.table-container {  
+    width: 100%;  
+    overflow-x: auto; /* 如果表格宽度超出容器，则添加水平滚动条 */  
+}  
+  
+table {  
+    width: 100%;  
+    border-collapse: collapse;  
+    margin-bottom: 20px;  
+}  
+  
+table, th, td {  
+    border: 1px solid #b7d8ec;  
+}  
+  
+th, td {  
+    padding: 12px;  
+    text-align: left;  
+}  
+  
+th {  
+    background-color: #d5e9f6;  
+}  
+  
+/* 响应式设计（可选） */  
+@media (max-width: 900px) {  
+    .container {  
+        flex-direction: column;  
+    }  
+  
+    .sidebar {  
+        width: 100%;  
+        border-right: none;  
+        border-bottom: 1px solid #ddd;  
+        margin-bottom: 20px;  
+    }  
+  
+    .main-content {  
+        width: 100%;  
+    }  
+}
+
+
+/* 二阶段更改 */
+.fan-control {  
+    display: flex;  
+    align-items: center; /* 垂直居中 */  
+    gap: 10px; /* 元素之间的间隔 */  
+    margin-bottom: 25px;
+}  
+  
+.fan-control p {  
+    margin: 10px; /* 移除段落默认的上下边距 */  
+}  
+  
+.fan-button {  
+    border: none; /* 移除边框 */  
+    background-color: #f0f0f0; /* 浅灰色背景 */  
+    padding: 8px 16px; /* 内边距 */  
+    border-radius: 5px; /* 圆角 */  
+    cursor: pointer; /* 鼠标悬停时显示指针 */  
+    transition: background-color 0.3s; /* 平滑的背景色变化 */  
+}  
+  
+.fan-button.left {  
+    background-color: #ddd; /* 左侧按钮的初始背景色 */  
+}  
+  
+.fan-button.right {  
+    background-color: #b7d8ec; /* 右侧按钮的初始背景色，例如蓝色 */  
+    color: rgb(0, 0, 0); /* 文本颜色为白色，以便在蓝色背景上可见 */  
+}  
+  
+.fan-button:hover {  
+    background-color: #ccc; /* 鼠标悬停时的背景色变化，适用于左右按钮 */  
+}  
+  
+.fan-button.right:hover {  
+    background-color: #b7d8ec; /* 鼠标悬停在右侧按钮时的特定背景色变化 */  
+}  

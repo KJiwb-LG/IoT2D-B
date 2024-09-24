@@ -1,0 +1,180 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    height: 100vh;  
+    background-color: #ffffff;
+}  
+
+header {  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;  
+    margin-bottom: 10px;  
+    color: #ffffff;
+    background-color: #b7d8ec; /* 可选，为主标题添加背景色 */  
+    width: 100%;
+}  
+
+.container {  
+    display: flex;  
+    width: 90%;  
+    max-width: 1200px;  
+    margin: 0 auto;  
+}  
+  
+.sidebar {  
+    width: 244px; /* 设定一个具体的宽度 */   
+    padding: 20px;  
+    background-color: #f4f4f4;  
+    border-right: 1px solid #ddd;   
+}  
+  
+.sidebar ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+  
+.sidebar li {  
+    margin-bottom: 30px;  
+}  
+
+.sidebar a {  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    text-decoration: none;  
+    color: #333;  
+    font-weight: bold;  
+    display: block; /* 使链接占据整行 */  
+    padding: 8px;  
+    border-radius: 4px; /* 可选，为链接添加圆角 */  
+    transition: background-color 0.3s; /* 可选，为鼠标悬停效果添加过渡 */  
+}  
+
+.sidebar a:hover {  
+    background-color: #b7d8ec; /* 鼠标悬停时的背景色 */  
+}  
+  
+.content {  
+    flex: 3;  
+    padding: 20px;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+/* 首页介绍文本样式 */
+p {  
+    font-size: 20px;
+    font-family: '仿宋';
+    text-align: center;  
+    width: 90%;  
+    max-width: 800px;  
+}
+
+/* 轮播图 */
+/* 轮播图容器样式 */  
+.slideshow-container {  
+    max-width: 100%; /* 或者你想要的宽度 */  
+    position: relative;  
+    margin: auto;  
+    overflow: hidden; /* 隐藏超出容器的部分 */  
+}  
+  
+/* 每张幻灯片的样式 */  
+.mySlides {  
+    display: none; /* 默认隐藏所有幻灯片 */  
+    width: 700px;  
+    height: 450px;
+}  
+  
+/* 幻灯片内图片的样式 */  
+.mySlides img {  
+    width: 100%;  
+    display: block; /* 防止图片下方出现空白 */  
+}  
+  
+/* 淡入动画效果 */  
+.fade {  
+    animation-name: fade;  
+    animation-duration: 2.5s;  
+}  
+  
+@keyframes fade {  
+    from {opacity: .4}   
+    to {opacity: 1}  
+}  
+  
+/* 前后按钮的样式 */  
+.prev, .next {  
+    cursor: pointer;  
+    position: absolute;  
+    top: 50%;  
+    width: auto;  
+    padding: 16px;  
+    margin-top: -22px;  
+    color: white;  
+    font-weight: bold;  
+    font-size: 18px;  
+    transition: 0.6s ease;  
+    border-radius: 0 3px 3px 0;  
+    user-select: none;  
+    background-color: rgba(64, 98, 128, 0.2); /* 黑色半透明背景 */  
+}  
+  
+/* 调整按钮位置 */  
+.next {  
+    right: 0;  
+    border-radius: 3px 0 0 3px;  
+}  
+  
+.prev {  
+    left: 0;  
+    border-radius: 0 3px 3px 0;  
+}  
+  
+/* 指示器（小圆点）的样式 */  
+.dot {  
+    cursor: pointer;  
+    height: 10px;  
+    width: 10px;  
+    margin: 0 2px;  
+    background-color: #bbbbbb;  
+    border-radius: 50%;  
+    display: inline-block;  
+    transition: background-color 0.6s ease;  
+}  
+  
+.active, .dot:hover {  
+    background-color: #5cabcf;  
+}  
+  
+/* 其他可能的样式调整 */  
+p {  
+    text-align: center; /* 或者其他你想要的文本对齐方式 */  
+    margin-top: 20px; /* 与轮播图保持一定距离 */  
+}
+
+.chart_wrapper{
+    width: 100%;
+}
+.header-row {  
+    display: flex;  
+    justify-content: space-around; /* 或者使用 space-between, flex-start 等 */  
+    align-items: center;  
+    padding: 10px;  
+    width: 100%;
+}  
+  
+#windowcurrent, #lightcurrent, #tempcurrent, #fancurrent {  
+    text-align: center;  
+    margin: 0 10px;  
+    width:25%;
+}  
+  
+.status {  
+    margin-top: 5px; /* 或者根据需要调整 */  
+}

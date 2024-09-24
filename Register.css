@@ -1,0 +1,50 @@
+body {  
+    font-family: Arial, sans-serif;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    margin: 0;  
+    /* 移除背景颜色，因为我们将在伪元素上设置背景 */  
+    /* background-color: #f2f2f2; */  
+    /* 添加定位上下文，以便伪元素可以相对于body定位 */  
+    position: relative;  
+}  
+  
+body::before {  
+    /* 使用整个body作为背景图片的位置和大小 */  
+    content: "";  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    height: 100%;  
+    /* 设置背景图片，这里替换成你的图片URL */  
+    background-image: url('Login-picture.jpg');  
+    /* 设置背景图片不重复，并覆盖整个元素 */  
+    background-repeat: no-repeat;  
+    background-size: cover;  
+    /* 设置背景图片的透明度为50% */  
+    filter: brightness(1) contrast(1) saturate(1) opacity(0.6);
+    background-color: rgba(255, 255, 255, 0.5); /* 假设图片是纯色，可以用这个代替 */  
+    /* 或者，如果图片有颜色，你可能需要使用其他方法来调整透明度 */  
+    /* 例如，使用CSS滤镜：filter: brightness(1) contrast(1) saturate(1) opacity(0.5); */  
+    /* 注意：滤镜可能会影响图片的颜色和对比度，所以请根据你的图片进行调整 */  
+    z-index: -1; /* 确保伪元素在body的其他内容之下 */  
+} 
+  
+.login-container {  
+    padding: 20px;  
+    background-color: #fff;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+  
+.form-group {  
+    margin-bottom: 15px;  
+}  
+  
+.error {  
+    color: red;  
+    margin-top: 10px;  
+}

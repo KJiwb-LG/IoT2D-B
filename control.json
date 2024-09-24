@@ -1,0 +1,2099 @@
+[
+    {
+        "controlID": 1,
+        "controlDate": "2024-07-30",
+        "controlTime": "9:12:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 2,
+        "controlDate": "2024-07-30",
+        "controlTime": "12:54:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 3,
+        "controlDate": "2024-07-31",
+        "controlTime": "11:08:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 4,
+        "controlDate": "2024-07-31",
+        "controlTime": "21:16:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 5,
+        "controlDate": "2024-07-31",
+        "controlTime": "19:03:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 3
+    },
+    {
+        "controlID": 6,
+        "controlDate": "2024-07-31",
+        "controlTime": "18:07:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 7,
+        "controlDate": "2024-07-29",
+        "controlTime": "16:58:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 1
+    },
+    {
+        "controlID": 8,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:31:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "人脸识别",
+        "userID": 2
+    },
+    {
+        "controlID": 9,
+        "controlDate": "2024-07-29",
+        "controlTime": "11:55:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 10,
+        "controlDate": "2024-07-30",
+        "controlTime": "20:09:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 11,
+        "controlDate": "2024-07-30",
+        "controlTime": "18:18:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 12,
+        "controlDate": "2024-07-31",
+        "controlTime": "21:27:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 13,
+        "controlDate": "2024-07-30",
+        "controlTime": "13:57:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "人脸识别",
+        "userID": 3
+    },
+    {
+        "controlID": 14,
+        "controlDate": "2024-07-29",
+        "controlTime": "13:13:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "智能雨控",
+        "userID": null
+    },
+    {
+        "controlID": 15,
+        "controlDate": "2024-07-31",
+        "controlTime": "17:22:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 16,
+        "controlDate": "2024-07-30",
+        "controlTime": "10:10:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 17,
+        "controlDate": "2024-07-31",
+        "controlTime": "11:40:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 18,
+        "controlDate": "2024-07-30",
+        "controlTime": "18:04:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 19,
+        "controlDate": "2024-07-31",
+        "controlTime": "15:29:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 20,
+        "controlDate": "2024-07-30",
+        "controlTime": "13:53:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 21,
+        "controlDate": "2024-07-30",
+        "controlTime": "11:01:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 22,
+        "controlDate": "2024-07-30",
+        "controlTime": "20:43:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 2
+    },
+    {
+        "controlID": 23,
+        "controlDate": "2024-07-30",
+        "controlTime": "16:28:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 24,
+        "controlDate": "2024-07-30",
+        "controlTime": "12:02:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "门禁卡",
+        "userID": 2
+    },
+    {
+        "controlID": 25,
+        "controlDate": "2024-07-30",
+        "controlTime": "8:14:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 26,
+        "controlDate": "2024-07-31",
+        "controlTime": "10:17:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 27,
+        "controlDate": "2024-07-30",
+        "controlTime": "18:44:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 28,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:38:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 29,
+        "controlDate": "2024-07-29",
+        "controlTime": "12:35:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 30,
+        "controlDate": "2024-07-31",
+        "controlTime": "15:48:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 1
+    },
+    {
+        "controlID": 31,
+        "controlDate": "2024-07-29",
+        "controlTime": "13:10:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 32,
+        "controlDate": "2024-07-29",
+        "controlTime": "13:00:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "门禁卡",
+        "userID": 1
+    },
+    {
+        "controlID": 33,
+        "controlDate": "2024-07-31",
+        "controlTime": "20:29:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "人脸识别",
+        "userID": 2
+    },
+    {
+        "controlID": 34,
+        "controlDate": "2024-07-30",
+        "controlTime": "21:30:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 35,
+        "controlDate": "2024-07-29",
+        "controlTime": "16:10:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 36,
+        "controlDate": "2024-07-30",
+        "controlTime": "10:31:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 37,
+        "controlDate": "2024-07-29",
+        "controlTime": "11:14:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 38,
+        "controlDate": "2024-07-29",
+        "controlTime": "20:49:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 39,
+        "controlDate": "2024-07-29",
+        "controlTime": "18:27:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 1
+    },
+    {
+        "controlID": 40,
+        "controlDate": "2024-07-29",
+        "controlTime": "8:12:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "人脸识别",
+        "userID": 3
+    },
+    {
+        "controlID": 41,
+        "controlDate": "2024-07-29",
+        "controlTime": "16:11:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 42,
+        "controlDate": "2024-07-31",
+        "controlTime": "20:58:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 3
+    },
+    {
+        "controlID": 43,
+        "controlDate": "2024-07-29",
+        "controlTime": "21:09:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 44,
+        "controlDate": "2024-07-29",
+        "controlTime": "13:28:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "人脸识别",
+        "userID": 2
+    },
+    {
+        "controlID": 45,
+        "controlDate": "2024-07-31",
+        "controlTime": "21:20:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 46,
+        "controlDate": "2024-07-31",
+        "controlTime": "10:25:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 47,
+        "controlDate": "2024-07-31",
+        "controlTime": "14:10:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "人脸识别",
+        "userID": 2
+    },
+    {
+        "controlID": 48,
+        "controlDate": "2024-07-30",
+        "controlTime": "19:15:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "人脸识别",
+        "userID": 2
+    },
+    {
+        "controlID": 49,
+        "controlDate": "2024-07-31",
+        "controlTime": "14:18:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 50,
+        "controlDate": "2024-07-29",
+        "controlTime": "12:15:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 51,
+        "controlDate": "2024-07-29",
+        "controlTime": "16:44:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 52,
+        "controlDate": "2024-07-31",
+        "controlTime": "14:57:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 53,
+        "controlDate": "2024-07-30",
+        "controlTime": "15:16:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 54,
+        "controlDate": "2024-07-29",
+        "controlTime": "11:53:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 55,
+        "controlDate": "2024-07-30",
+        "controlTime": "15:42:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "人脸识别",
+        "userID": 2
+    },
+    {
+        "controlID": 56,
+        "controlDate": "2024-07-31",
+        "controlTime": "18:12:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 57,
+        "controlDate": "2024-07-30",
+        "controlTime": "14:04:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "门禁卡",
+        "userID": 1
+    },
+    {
+        "controlID": 58,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:34:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 59,
+        "controlDate": "2024-07-29",
+        "controlTime": "8:39:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 60,
+        "controlDate": "2024-07-31",
+        "controlTime": "17:18:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 61,
+        "controlDate": "2024-07-30",
+        "controlTime": "15:26:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 62,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:26:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 63,
+        "controlDate": "2024-07-30",
+        "controlTime": "15:42:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 64,
+        "controlDate": "2024-07-29",
+        "controlTime": "10:11:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 65,
+        "controlDate": "2024-07-30",
+        "controlTime": "19:43:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 66,
+        "controlDate": "2024-07-30",
+        "controlTime": "19:03:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 67,
+        "controlDate": "2024-07-29",
+        "controlTime": "20:57:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 68,
+        "controlDate": "2024-07-29",
+        "controlTime": "18:59:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 69,
+        "controlDate": "2024-07-29",
+        "controlTime": "18:20:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 70,
+        "controlDate": "2024-07-31",
+        "controlTime": "16:58:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 71,
+        "controlDate": "2024-07-31",
+        "controlTime": "14:46:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "人脸识别",
+        "userID": 1
+    },
+    {
+        "controlID": 72,
+        "controlDate": "2024-07-31",
+        "controlTime": "10:09:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 73,
+        "controlDate": "2024-07-31",
+        "controlTime": "8:53:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 74,
+        "controlDate": "2024-07-30",
+        "controlTime": "13:13:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 75,
+        "controlDate": "2024-07-30",
+        "controlTime": "17:18:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 1
+    },
+    {
+        "controlID": 76,
+        "controlDate": "2024-07-29",
+        "controlTime": "8:00:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 77,
+        "controlDate": "2024-07-30",
+        "controlTime": "14:06:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 78,
+        "controlDate": "2024-07-31",
+        "controlTime": "19:33:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 79,
+        "controlDate": "2024-07-29",
+        "controlTime": "19:25:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 80,
+        "controlDate": "2024-07-31",
+        "controlTime": "8:13:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 3
+    },
+    {
+        "controlID": 81,
+        "controlDate": "2024-07-30",
+        "controlTime": "16:13:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 82,
+        "controlDate": "2024-07-29",
+        "controlTime": "15:57:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 83,
+        "controlDate": "2024-07-29",
+        "controlTime": "20:46:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 84,
+        "controlDate": "2024-07-30",
+        "controlTime": "16:19:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 85,
+        "controlDate": "2024-07-29",
+        "controlTime": "18:41:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "人脸识别",
+        "userID": 1
+    },
+    {
+        "controlID": 86,
+        "controlDate": "2024-07-30",
+        "controlTime": "9:19:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 87,
+        "controlDate": "2024-07-31",
+        "controlTime": "21:16:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "人脸识别",
+        "userID": 1
+    },
+    {
+        "controlID": 88,
+        "controlDate": "2024-07-29",
+        "controlTime": "8:24:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 89,
+        "controlDate": "2024-07-29",
+        "controlTime": "12:10:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 90,
+        "controlDate": "2024-07-31",
+        "controlTime": "10:26:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 91,
+        "controlDate": "2024-07-30",
+        "controlTime": "11:58:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 92,
+        "controlDate": "2024-07-31",
+        "controlTime": "10:13:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 93,
+        "controlDate": "2024-07-29",
+        "controlTime": "12:02:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 94,
+        "controlDate": "2024-07-31",
+        "controlTime": "12:34:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 95,
+        "controlDate": "2024-07-31",
+        "controlTime": "17:36:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 96,
+        "controlDate": "2024-07-31",
+        "controlTime": "14:05:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "门禁卡",
+        "userID": 1
+    },
+    {
+        "controlID": 97,
+        "controlDate": "2024-07-31",
+        "controlTime": "22:12:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 98,
+        "controlDate": "2024-07-30",
+        "controlTime": "21:20:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 99,
+        "controlDate": "2024-07-30",
+        "controlTime": "18:02:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 100,
+        "controlDate": "2024-07-29",
+        "controlTime": "19:03:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 101,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:04:52",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 102,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:16:16",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 103,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:20:21",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 104,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:20:25",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 105,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:20:34",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 106,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:26:33",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 107,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:26:35",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 108,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:26:37",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 109,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:26:39",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 110,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:29:43",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 111,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:34:46",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 112,
+        "controlDate": "2024-07-30",
+        "controlTime": "22:43:56",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 113,
+        "controlDate": "2024-07-31",
+        "controlTime": "19:23:29",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 114,
+        "controlDate": "2024-07-31",
+        "controlTime": "19:23:33",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 115,
+        "controlDate": "2024-07-29",
+        "controlTime": "10:29:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 116,
+        "controlDate": "2024-07-29",
+        "controlTime": "21:58:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 117,
+        "controlDate": "2024-07-29",
+        "controlTime": "9:28:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 118,
+        "controlDate": "2024-07-29",
+        "controlTime": "11:34:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 119,
+        "controlDate": "2024-07-29",
+        "controlTime": "9:06:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "人脸识别",
+        "userID": 3
+    },
+    {
+        "controlID": 120,
+        "controlDate": "2024-07-29",
+        "controlTime": "21:45:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 121,
+        "controlDate": "2024-07-29",
+        "controlTime": "17:07:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 122,
+        "controlDate": "2024-07-29",
+        "controlTime": "18:09:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 123,
+        "controlDate": "2024-07-29",
+        "controlTime": "16:18:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 124,
+        "controlDate": "2024-07-29",
+        "controlTime": "11:52:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "智能雨控",
+        "userID": null
+    },
+    {
+        "controlID": 125,
+        "controlDate": "2024-07-29",
+        "controlTime": "13:30:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 1
+    },
+    {
+        "controlID": 126,
+        "controlDate": "2024-07-29",
+        "controlTime": "17:16:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 127,
+        "controlDate": "2024-07-29",
+        "controlTime": "18:47:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 128,
+        "controlDate": "2024-07-29",
+        "controlTime": "20:55:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 129,
+        "controlDate": "2024-07-29",
+        "controlTime": "19:33:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 130,
+        "controlDate": "2024-07-29",
+        "controlTime": "10:55:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 131,
+        "controlDate": "2024-07-29",
+        "controlTime": "19:37:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 132,
+        "controlDate": "2024-07-29",
+        "controlTime": "12:24:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 133,
+        "controlDate": "2024-07-29",
+        "controlTime": "14:08:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 134,
+        "controlDate": "2024-07-29",
+        "controlTime": "9:20:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "人脸识别",
+        "userID": 1
+    },
+    {
+        "controlID": 135,
+        "controlDate": "2024-07-29",
+        "controlTime": "12:07:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "智能雨控",
+        "userID": null
+    },
+    {
+        "controlID": 136,
+        "controlDate": "2024-07-29",
+        "controlTime": "20:37:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 137,
+        "controlDate": "2024-07-29",
+        "controlTime": "22:40:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 138,
+        "controlDate": "2024-07-29",
+        "controlTime": "22:55:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 1
+    },
+    {
+        "controlID": 139,
+        "controlDate": "2024-07-29",
+        "controlTime": "9:13:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 140,
+        "controlDate": "2024-07-29",
+        "controlTime": "15:38:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 141,
+        "controlDate": "2024-07-29",
+        "controlTime": "10:27:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 142,
+        "controlDate": "2024-07-29",
+        "controlTime": "20:07:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 143,
+        "controlDate": "2024-07-29",
+        "controlTime": "13:45:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 144,
+        "controlDate": "2024-07-29",
+        "controlTime": "16:09:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 145,
+        "controlDate": "2024-07-29",
+        "controlTime": "19:17:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 146,
+        "controlDate": "2024-07-29",
+        "controlTime": "10:24:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 147,
+        "controlDate": "2024-07-29",
+        "controlTime": "20:31:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 148,
+        "controlDate": "2024-07-29",
+        "controlTime": "22:36:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 149,
+        "controlDate": "2024-07-29",
+        "controlTime": "19:06:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 150,
+        "controlDate": "2024-07-29",
+        "controlTime": "14:45:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 151,
+        "controlDate": "2024-07-29",
+        "controlTime": "18:12:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "人脸识别",
+        "userID": 2
+    },
+    {
+        "controlID": 152,
+        "controlDate": "2024-07-29",
+        "controlTime": "9:30:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "人脸识别",
+        "userID": 3
+    },
+    {
+        "controlID": 153,
+        "controlDate": "2024-07-29",
+        "controlTime": "10:48:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 154,
+        "controlDate": "2024-07-29",
+        "controlTime": "11:16:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 155,
+        "controlDate": "2024-07-29",
+        "controlTime": "8:49:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 156,
+        "controlDate": "2024-07-29",
+        "controlTime": "21:00:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "人脸识别",
+        "userID": 2
+    },
+    {
+        "controlID": 157,
+        "controlDate": "2024-07-29",
+        "controlTime": "19:56:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "门禁卡",
+        "userID": 2
+    },
+    {
+        "controlID": 158,
+        "controlDate": "2024-07-29",
+        "controlTime": "20:22:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 159,
+        "controlDate": "2024-07-29",
+        "controlTime": "16:03:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 160,
+        "controlDate": "2024-07-29",
+        "controlTime": "18:45:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 161,
+        "controlDate": "2024-07-29",
+        "controlTime": "16:35:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 2
+    },
+    {
+        "controlID": 162,
+        "controlDate": "2024-07-29",
+        "controlTime": "13:10:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 163,
+        "controlDate": "2024-07-29",
+        "controlTime": "18:43:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 164,
+        "controlDate": "2024-07-29",
+        "controlTime": "17:26:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 2
+    },
+    {
+        "controlID": 165,
+        "controlDate": "2024-07-29",
+        "controlTime": "15:56:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 166,
+        "controlDate": "2024-07-29",
+        "controlTime": "12:29:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "人脸识别",
+        "userID": 1
+    },
+    {
+        "controlID": 167,
+        "controlDate": "2024-07-29",
+        "controlTime": "8:31:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "人脸识别",
+        "userID": 3
+    },
+    {
+        "controlID": 168,
+        "controlDate": "2024-07-29",
+        "controlTime": "16:52:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "门禁卡",
+        "userID": 2
+    },
+    {
+        "controlID": 169,
+        "controlDate": "2024-07-29",
+        "controlTime": "9:50:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 170,
+        "controlDate": "2024-07-29",
+        "controlTime": "21:49:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 171,
+        "controlDate": "2024-07-29",
+        "controlTime": "13:12:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "人脸识别",
+        "userID": 2
+    },
+    {
+        "controlID": 172,
+        "controlDate": "2024-07-29",
+        "controlTime": "12:09:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "人脸识别",
+        "userID": 3
+    },
+    {
+        "controlID": 173,
+        "controlDate": "2024-07-29",
+        "controlTime": "8:06:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 174,
+        "controlDate": "2024-07-29",
+        "controlTime": "10:09:00",
+        "device": "灯",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 175,
+        "controlDate": "2024-07-29",
+        "controlTime": "13:53:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "门禁卡",
+        "userID": 1
+    },
+    {
+        "controlID": 176,
+        "controlDate": "2024-07-29",
+        "controlTime": "12:50:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 2
+    },
+    {
+        "controlID": 177,
+        "controlDate": "2024-07-29",
+        "controlTime": "11:51:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 178,
+        "controlDate": "2024-07-29",
+        "controlTime": "20:00:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 179,
+        "controlDate": "2024-07-29",
+        "controlTime": "15:51:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 180,
+        "controlDate": "2024-07-29",
+        "controlTime": "8:47:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 181,
+        "controlDate": "2024-07-29",
+        "controlTime": "17:00:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 182,
+        "controlDate": "2024-07-29",
+        "controlTime": "20:18:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 183,
+        "controlDate": "2024-07-29",
+        "controlTime": "14:46:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 184,
+        "controlDate": "2024-07-29",
+        "controlTime": "9:56:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 185,
+        "controlDate": "2024-07-29",
+        "controlTime": "8:42:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "人脸识别",
+        "userID": 2
+    },
+    {
+        "controlID": 186,
+        "controlDate": "2024-07-29",
+        "controlTime": "11:38:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 187,
+        "controlDate": "2024-07-29",
+        "controlTime": "10:33:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 188,
+        "controlDate": "2024-07-29",
+        "controlTime": "20:44:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 189,
+        "controlDate": "2024-07-29",
+        "controlTime": "18:06:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 190,
+        "controlDate": "2024-07-29",
+        "controlTime": "13:15:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "智能控制",
+        "userID": null
+    },
+    {
+        "controlID": 191,
+        "controlDate": "2024-07-29",
+        "controlTime": "18:33:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 192,
+        "controlDate": "2024-07-29",
+        "controlTime": "19:15:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "人脸识别",
+        "userID": 1
+    },
+    {
+        "controlID": 193,
+        "controlDate": "2024-07-29",
+        "controlTime": "11:40:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 194,
+        "controlDate": "2024-07-29",
+        "controlTime": "22:28:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 3
+    },
+    {
+        "controlID": 195,
+        "controlDate": "2024-07-29",
+        "controlTime": "11:25:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 196,
+        "controlDate": "2024-07-29",
+        "controlTime": "17:22:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "人脸识别",
+        "userID": 2
+    },
+    {
+        "controlID": 197,
+        "controlDate": "2024-07-29",
+        "controlTime": "8:20:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "门禁卡",
+        "userID": 1
+    },
+    {
+        "controlID": 198,
+        "controlDate": "2024-07-29",
+        "controlTime": "13:43:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 199,
+        "controlDate": "2024-07-29",
+        "controlTime": "17:07:00",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 200,
+        "controlDate": "2024-07-29",
+        "controlTime": "22:03:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 1
+    },
+    {
+        "controlID": 201,
+        "controlDate": "2024-07-29",
+        "controlTime": "15:05:00",
+        "device": "灯",
+        "operation": "关",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 202,
+        "controlDate": "2024-07-29",
+        "controlTime": "16:01:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "人脸识别",
+        "userID": 2
+    },
+    {
+        "controlID": 203,
+        "controlDate": "2024-07-29",
+        "controlTime": "18:43:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端设置",
+        "userID": 2
+    },
+    {
+        "controlID": 204,
+        "controlDate": "2024-07-29",
+        "controlTime": "22:23:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 205,
+        "controlDate": "2024-07-29",
+        "controlTime": "14:36:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "智能雨控",
+        "userID": null
+    },
+    {
+        "controlID": 206,
+        "controlDate": "2024-07-29",
+        "controlTime": "22:09:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "门禁卡",
+        "userID": 2
+    },
+    {
+        "controlID": 207,
+        "controlDate": "2024-07-29",
+        "controlTime": "14:30:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "门禁卡",
+        "userID": 2
+    },
+    {
+        "controlID": 208,
+        "controlDate": "2024-07-29",
+        "controlTime": "20:06:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "人脸识别",
+        "userID": 2
+    },
+    {
+        "controlID": 209,
+        "controlDate": "2024-07-29",
+        "controlTime": "15:42:00",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "智能雨控",
+        "userID": null
+    },
+    {
+        "controlID": 210,
+        "controlDate": "2024-07-29",
+        "controlTime": "15:50:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 3
+    },
+    {
+        "controlID": 211,
+        "controlDate": "2024-07-29",
+        "controlTime": "15:44:00",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "门禁卡",
+        "userID": 1
+    },
+    {
+        "controlID": 212,
+        "controlDate": "2024-07-29",
+        "controlTime": "14:54:00",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 213,
+        "controlDate": "2024-07-29",
+        "controlTime": "9:56:00",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "门禁卡",
+        "userID": 2
+    },
+    {
+        "controlID": 214,
+        "controlDate": "2024-07-29",
+        "controlTime": "16:07:00",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "语音控制",
+        "userID": null
+    },
+    {
+        "controlID": 215,
+        "controlDate": "2024-07-31",
+        "controlTime": "21:49:04",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 216,
+        "controlDate": "2024-07-31",
+        "controlTime": "21:49:08",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 217,
+        "controlDate": "2024-07-31",
+        "controlTime": "21:49:08",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 218,
+        "controlDate": "2024-07-31",
+        "controlTime": "21:49:08",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 219,
+        "controlDate": "2024-07-31",
+        "controlTime": "21:49:09",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 220,
+        "controlDate": "2024-07-31",
+        "controlTime": "21:49:09",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 221,
+        "controlDate": "2024-07-31",
+        "controlTime": "21:49:09",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 222,
+        "controlDate": "2024-07-31",
+        "controlTime": "21:49:10",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 223,
+        "controlDate": "2024-07-31",
+        "controlTime": "21:49:10",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 224,
+        "controlDate": "2024-07-31",
+        "controlTime": "22:05:36",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 225,
+        "controlDate": "2024-07-31",
+        "controlTime": "22:05:36",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 226,
+        "controlDate": "2024-07-31",
+        "controlTime": "22:05:36",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 227,
+        "controlDate": "2024-07-31",
+        "controlTime": "22:05:36",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 228,
+        "controlDate": "2024-07-31",
+        "controlTime": "22:05:37",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 229,
+        "controlDate": "2024-07-31",
+        "controlTime": "22:05:37",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 230,
+        "controlDate": "2024-07-31",
+        "controlTime": "22:05:37",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 231,
+        "controlDate": "2024-07-31",
+        "controlTime": "22:05:38",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 232,
+        "controlDate": "2024-07-31",
+        "controlTime": "22:05:39",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 233,
+        "controlDate": "2024-09-23",
+        "controlTime": "18:32:46",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    }
+]

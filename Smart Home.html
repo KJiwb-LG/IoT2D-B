@@ -1,0 +1,90 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Welcome to Smart Home</title>  
+    <link rel="stylesheet" href="SmartHome.css">  
+</head>  
+<body>  
+    <header>  
+        <h1>Welcome to Smart Home</h1>  
+    </header>  
+    <div class="container">  
+        <nav class="sidebar">  
+            <ul>  
+                <li><a href="Smart Home.html">Home</a></li>  
+                <li><a href="Window.html">Window</a></li>  
+                <li><a href="Door.html">Door</a></li>  
+                <li><a href="Light.html">Light</a></li>  
+                <li><a href="Temp.html">Temperature</a></li>  
+                <li><a href="Wetness.html">Wetness</a></li>  
+                <li><a href="Fan.html">Fan</a></li>  
+                <li><a href="User.html">User</a></li>  
+                <li><a href="Login.html">退出登录</a></li> 
+            </ul>  
+        </nav>  
+        <main class="content">  
+            <div class="slideshow-container">  
+                <div class="mySlides fade">  
+                    <img src="picture1.jpg" alt="Smart Home Image 1" width="700" height="500">  
+                </div>  
+          
+                <div class="mySlides fade">  
+                    <img src="picture2.jpg" alt="Smart Home Image 2" width="700" height="500">  
+                </div>  
+          
+                <div class="mySlides fade">  
+                    <img src="picture3.jpg" alt="Smart Home Image 3" width="700" height="500">  
+                </div>  
+
+                <div class="mySlides fade">  
+                    <img src="picture4.jpg" alt="Smart Home Image 4" width="700" height="500">  
+                </div>  
+          
+                <!-- 轮播图指示器（小圆点） -->  
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>  
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>  
+            </div>  
+          
+            <br>  
+          
+            <!-- 轮播图指示器（小圆点下方） -->  
+            <div style="text-align:center">  
+                <span class="dot" onclick="currentSlide(1)"></span>  
+                <span class="dot" onclick="currentSlide(2)"></span>  
+                <span class="dot" onclick="currentSlide(3)"></span>  
+                <span class="dot" onclick="currentSlide(4)"></span>  
+                <!-- 根据图片数量增加或减少小圆点 -->  
+            </div>  
+          
+            <p>欢迎来到智能家居世界，这里将为您带来前所未有的便捷与舒适。通过智能设备的互联，您可以轻松控制家中的照明、安防、温控及娱乐系统，享受科技带来的美好生活。</p>  
+
+            <div class="chart_wrapper">  
+                <p id="currentTime">当前时间</p> 
+            </div>  
+
+            <div class="header-row">  
+                <div id="windowcurrent">  
+                    <img src="window.png" alt="窗户图标" width="50" height="50">  
+                    <p class="status">当前窗状态</p>  
+                </div>  
+                <div id="lightcurrent">  
+                    <img src="light1.png" alt="灯图标" width="50" height="50">  
+                    <p class="status">当前灯光</p>  
+                </div>  
+                <div id="tempcurrent">  
+                    <img src="tempaverage.png" alt="温度图标" width="50" height="50">  
+                    <p class="status">当前温度、湿度</p>
+                </div>  
+                <div id="fancurrent">  
+                    <img src="fan.png" alt="风扇图标" width="50" height="50">  
+                    <p class="status">当前风扇状态</p>
+                </div>  
+            </div>
+        </main>
+    </div>  
+
+    <script src="SmartHome.js"></script>  
+</body>  
+</html>

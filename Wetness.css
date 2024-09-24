@@ -1,0 +1,107 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    height: 100vh;  
+    background-color: rgb(255, 255, 255);
+}  
+  
+header {  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;  
+    margin-bottom: 10px;  
+    color: #ffffff;
+    background-color: #b7d8ec; /* 可选，为主标题添加背景色 */  
+    width: 100%; 
+}  
+  
+.container {  
+    display: flex;  
+    width: 90%;  
+    max-width: 1200px;  
+    margin: 0 auto;  
+}  
+  
+.sidebar {  
+    width: 250px; /* 设定一个具体的宽度 */  
+    padding: 20px;  
+    background-color: #f4f4f4;  
+    border-right: 1px solid #ddd;  
+}  
+  
+.sidebar ul {  
+    list-style-type: none;  
+    height: 100%; /* 如果需要列表占满侧栏高度 */  
+    padding: 0;  
+}  
+  
+.sidebar li {  
+    margin-bottom: 30px;  
+}  
+  
+.sidebar a {  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    text-decoration: none;  
+    color: #333;  
+    font-weight: bold;  
+    display: block; /* 使链接占据整行 */  
+    padding: 8px;  
+    border-radius: 4px; /* 可选，为链接添加圆角 */  
+    transition: background-color 0.3s; /* 可选，为鼠标悬停效果添加过渡 */  
+}  
+
+.sidebar a:hover {  
+    background-color: #b7d8ec; /* 鼠标悬停时的背景色 */  
+}  
+
+.chart_container {  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    width: 75%;  
+    display: flex;  
+    flex-direction: column; /* 使得子元素垂直排列 */  
+    position: relative;  
+}  
+  
+.highwet-row, .lowwet-row, .averagewet-row {  
+    display: flex;  
+    align-items: center; /* 垂直居中 */  
+    justify-content: center; /* 水平居中 */  
+    width: 100%;  
+    margin-bottom: 20px;  
+}
+
+.chart_container canvas {  
+    width: 80%; /* 相对于其父元素（现在是.chart_container）的宽度 */  
+    height: 600px;  
+    margin-top: 20px; /* 根据需要调整 */  
+}  
+  
+.chart_container p {  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-size: x-large;  
+    text-align: center;  
+    margin-bottom: 10px;  
+}  
+  
+.wet-info {  
+    display: flex; /* 使得.hightemp和.lowtemp可以并排显示，如果需要的话 */  
+    flex-direction: column; /* 如果想要它们垂直排列，可以保留这一行 */  
+    align-items: center; /* 对齐子元素 */  
+    margin-top: 20px; /* 根据需要调整与上方的间距 */  
+}  
+  
+.highwet p, .lowwet p {  
+    margin: 6px; /* 移除默认的段落间距 */  
+}
+
+#currentDate {  
+    background-color: #daebf6; /* 浅蓝色背景 */  
+    padding: 1px; /* 示例：添加一些内边距 */  
+    margin: 0 0 2px 0; /* 示例：添加一些外边距，底部稍大一些以与其他内容分隔 */  
+}

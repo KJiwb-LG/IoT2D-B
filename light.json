@@ -1,0 +1,702 @@
+[
+    {
+        "lightID": 28,
+        "brightness": "\u9002\u60a6",
+        "colour": "blue",
+        "date": "2024-07-03",
+        "time": "0:21:26"
+    },
+    {
+        "lightID": 41,
+        "brightness": "\u5173",
+        "colour": "red",
+        "date": "2024-07-03",
+        "time": "0:53:49"
+    },
+    {
+        "lightID": 92,
+        "brightness": "\u5168\u4eae",
+        "colour": "green",
+        "date": "2024-07-03",
+        "time": "0:58:52"
+    },
+    {
+        "lightID": 47,
+        "brightness": "\u4eae",
+        "colour": "green",
+        "date": "2024-07-03",
+        "time": "1:07:57"
+    },
+    {
+        "lightID": 5,
+        "brightness": "\u5168\u4eae",
+        "colour": "green",
+        "date": "2024-07-03",
+        "time": "3:03:52"
+    },
+    {
+        "lightID": 93,
+        "brightness": "\u5173",
+        "colour": "blue",
+        "date": "2024-07-03",
+        "time": "3:56:51"
+    },
+    {
+        "lightID": 79,
+        "brightness": "\u5168\u4eae",
+        "colour": "blue",
+        "date": "2024-07-03",
+        "time": "6:21:33"
+    },
+    {
+        "lightID": 39,
+        "brightness": "\u5168\u4eae",
+        "colour": "green",
+        "date": "2024-07-03",
+        "time": "7:25:11"
+    },
+    {
+        "lightID": 19,
+        "brightness": "\u4eae",
+        "colour": "green",
+        "date": "2024-07-03",
+        "time": "9:05:50"
+    },
+    {
+        "lightID": 56,
+        "brightness": "\u5168\u4eae",
+        "colour": "blue",
+        "date": "2024-07-03",
+        "time": "10:19:26"
+    },
+    {
+        "lightID": 64,
+        "brightness": "\u9002\u60a6",
+        "colour": "red",
+        "date": "2024-07-03",
+        "time": "12:12:30"
+    },
+    {
+        "lightID": 9,
+        "brightness": "\u4eae",
+        "colour": "red",
+        "date": "2024-07-03",
+        "time": "12:29:05"
+    },
+    {
+        "lightID": 4,
+        "brightness": "\u5168\u4eae",
+        "colour": "blue",
+        "date": "2024-07-03",
+        "time": "13:37:04"
+    },
+    {
+        "lightID": 20,
+        "brightness": "\u5173",
+        "colour": "green",
+        "date": "2024-07-03",
+        "time": "13:41:33"
+    },
+    {
+        "lightID": 54,
+        "brightness": "\u5168\u4eae",
+        "colour": "blue",
+        "date": "2024-07-03",
+        "time": "15:00:38"
+    },
+    {
+        "lightID": 81,
+        "brightness": "\u5173",
+        "colour": "green",
+        "date": "2024-07-03",
+        "time": "15:04:41"
+    },
+    {
+        "lightID": 12,
+        "brightness": "\u9002\u60a6",
+        "colour": "green",
+        "date": "2024-07-03",
+        "time": "15:22:08"
+    },
+    {
+        "lightID": 62,
+        "brightness": "\u5173",
+        "colour": "blue",
+        "date": "2024-07-03",
+        "time": "15:35:25"
+    },
+    {
+        "lightID": 72,
+        "brightness": "\u5173",
+        "colour": "red",
+        "date": "2024-07-03",
+        "time": "15:54:32"
+    },
+    {
+        "lightID": 25,
+        "brightness": "\u9002\u60a6",
+        "colour": "red",
+        "date": "2024-07-03",
+        "time": "16:08:42"
+    },
+    {
+        "lightID": 83,
+        "brightness": "\u9002\u60a6",
+        "colour": "green",
+        "date": "2024-07-03",
+        "time": "17:24:24"
+    },
+    {
+        "lightID": 71,
+        "brightness": "\u5173",
+        "colour": "green",
+        "date": "2024-07-03",
+        "time": "19:42:03"
+    },
+    {
+        "lightID": 61,
+        "brightness": "\u9002\u60a6",
+        "colour": "red",
+        "date": "2024-07-03",
+        "time": "20:03:37"
+    },
+    {
+        "lightID": 59,
+        "brightness": "\u4eae",
+        "colour": "blue",
+        "date": "2024-07-03",
+        "time": "20:06:26"
+    },
+    {
+        "lightID": 99,
+        "brightness": "\u5173",
+        "colour": "red",
+        "date": "2024-07-03",
+        "time": "20:40:51"
+    },
+    {
+        "lightID": 32,
+        "brightness": "\u5173",
+        "colour": "red",
+        "date": "2024-07-03",
+        "time": "21:57:53"
+    },
+    {
+        "lightID": 75,
+        "brightness": "\u4eae",
+        "colour": "green",
+        "date": "2024-07-03",
+        "time": "22:02:52"
+    },
+    {
+        "lightID": 13,
+        "brightness": "\u4eae",
+        "colour": "blue",
+        "date": "2024-07-03",
+        "time": "23:03:55"
+    },
+    {
+        "lightID": 21,
+        "brightness": "\u5173",
+        "colour": "blue",
+        "date": "2024-07-03",
+        "time": "23:26:46"
+    },
+    {
+        "lightID": 97,
+        "brightness": "\u5173",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "0:42:03"
+    },
+    {
+        "lightID": 30,
+        "brightness": "\u5173",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "1:10:23"
+    },
+    {
+        "lightID": 24,
+        "brightness": "\u5173",
+        "colour": "green",
+        "date": "2024-07-04",
+        "time": "1:26:33"
+    },
+    {
+        "lightID": 100,
+        "brightness": "\u9002\u60a6",
+        "colour": "blue",
+        "date": "2024-07-04",
+        "time": "2:04:45"
+    },
+    {
+        "lightID": 55,
+        "brightness": "\u5173",
+        "colour": "blue",
+        "date": "2024-07-04",
+        "time": "3:56:45"
+    },
+    {
+        "lightID": 45,
+        "brightness": "\u4eae",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "3:57:09"
+    },
+    {
+        "lightID": 18,
+        "brightness": "\u4eae",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "4:10:24"
+    },
+    {
+        "lightID": 31,
+        "brightness": "\u5173",
+        "colour": "blue",
+        "date": "2024-07-04",
+        "time": "4:34:03"
+    },
+    {
+        "lightID": 53,
+        "brightness": "\u4eae",
+        "colour": "green",
+        "date": "2024-07-04",
+        "time": "4:39:02"
+    },
+    {
+        "lightID": 98,
+        "brightness": "\u5173",
+        "colour": "green",
+        "date": "2024-07-04",
+        "time": "5:02:22"
+    },
+    {
+        "lightID": 29,
+        "brightness": "\u4eae",
+        "colour": "blue",
+        "date": "2024-07-04",
+        "time": "6:43:13"
+    },
+    {
+        "lightID": 2,
+        "brightness": "\u9002\u60a6",
+        "colour": "green",
+        "date": "2024-07-04",
+        "time": "7:48:41"
+    },
+    {
+        "lightID": 46,
+        "brightness": "\u5173",
+        "colour": "green",
+        "date": "2024-07-04",
+        "time": "8:42:13"
+    },
+    {
+        "lightID": 84,
+        "brightness": "\u5173",
+        "colour": "blue",
+        "date": "2024-07-04",
+        "time": "8:50:50"
+    },
+    {
+        "lightID": 1,
+        "brightness": "\u5168\u4eae",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "9:45:57"
+    },
+    {
+        "lightID": 35,
+        "brightness": "\u4eae",
+        "colour": "blue",
+        "date": "2024-07-04",
+        "time": "10:05:31"
+    },
+    {
+        "lightID": 74,
+        "brightness": "\u5168\u4eae",
+        "colour": "green",
+        "date": "2024-07-04",
+        "time": "11:25:38"
+    },
+    {
+        "lightID": 42,
+        "brightness": "\u5173",
+        "colour": "green",
+        "date": "2024-07-04",
+        "time": "12:41:20"
+    },
+    {
+        "lightID": 49,
+        "brightness": "\u4eae",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "13:44:47"
+    },
+    {
+        "lightID": 52,
+        "brightness": "\u5173",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "15:59:33"
+    },
+    {
+        "lightID": 11,
+        "brightness": "\u9002\u60a6",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "16:13:11"
+    },
+    {
+        "lightID": 65,
+        "brightness": "\u5173",
+        "colour": "blue",
+        "date": "2024-07-04",
+        "time": "16:28:04"
+    },
+    {
+        "lightID": 14,
+        "brightness": "\u5168\u4eae",
+        "colour": "blue",
+        "date": "2024-07-04",
+        "time": "17:25:26"
+    },
+    {
+        "lightID": 23,
+        "brightness": "\u5168\u4eae",
+        "colour": "green",
+        "date": "2024-07-04",
+        "time": "17:39:39"
+    },
+    {
+        "lightID": 16,
+        "brightness": "\u5173",
+        "colour": "green",
+        "date": "2024-07-04",
+        "time": "18:12:23"
+    },
+    {
+        "lightID": 80,
+        "brightness": "\u9002\u60a6",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "18:57:25"
+    },
+    {
+        "lightID": 77,
+        "brightness": "\u9002\u60a6",
+        "colour": "blue",
+        "date": "2024-07-04",
+        "time": "19:14:12"
+    },
+    {
+        "lightID": 86,
+        "brightness": "\u5173",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "19:22:58"
+    },
+    {
+        "lightID": 36,
+        "brightness": "\u9002\u60a6",
+        "colour": "green",
+        "date": "2024-07-04",
+        "time": "19:28:20"
+    },
+    {
+        "lightID": 73,
+        "brightness": "\u5168\u4eae",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "19:45:27"
+    },
+    {
+        "lightID": 50,
+        "brightness": "\u4eae",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "20:05:16"
+    },
+    {
+        "lightID": 95,
+        "brightness": "\u5173",
+        "colour": "blue",
+        "date": "2024-07-04",
+        "time": "20:31:26"
+    },
+    {
+        "lightID": 6,
+        "brightness": "\u9002\u60a6",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "20:53:27"
+    },
+    {
+        "lightID": 90,
+        "brightness": "\u5168\u4eae",
+        "colour": "green",
+        "date": "2024-07-04",
+        "time": "21:04:21"
+    },
+    {
+        "lightID": 82,
+        "brightness": "\u4eae",
+        "colour": "blue",
+        "date": "2024-07-04",
+        "time": "21:43:08"
+    },
+    {
+        "lightID": 58,
+        "brightness": "\u5168\u4eae",
+        "colour": "green",
+        "date": "2024-07-04",
+        "time": "22:02:58"
+    },
+    {
+        "lightID": 60,
+        "brightness": "\u4eae",
+        "colour": "red",
+        "date": "2024-07-04",
+        "time": "22:52:36"
+    },
+    {
+        "lightID": 44,
+        "brightness": "\u4eae",
+        "colour": "blue",
+        "date": "2024-07-04",
+        "time": "23:38:56"
+    },
+    {
+        "lightID": 37,
+        "brightness": "\u9002\u60a6",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "0:04:22"
+    },
+    {
+        "lightID": 94,
+        "brightness": "\u9002\u60a6",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "1:08:43"
+    },
+    {
+        "lightID": 8,
+        "brightness": "\u9002\u60a6",
+        "colour": "blue",
+        "date": "2024-07-05",
+        "time": "1:15:21"
+    },
+    {
+        "lightID": 34,
+        "brightness": "\u5168\u4eae",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "1:27:47"
+    },
+    {
+        "lightID": 76,
+        "brightness": "\u5168\u4eae",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "1:33:33"
+    },
+    {
+        "lightID": 26,
+        "brightness": "\u5173",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "1:56:00"
+    },
+    {
+        "lightID": 43,
+        "brightness": "\u9002\u60a6",
+        "colour": "blue",
+        "date": "2024-07-05",
+        "time": "2:14:18"
+    },
+    {
+        "lightID": 33,
+        "brightness": "\u5173",
+        "colour": "green",
+        "date": "2024-07-05",
+        "time": "2:35:41"
+    },
+    {
+        "lightID": 91,
+        "brightness": "\u5173",
+        "colour": "green",
+        "date": "2024-07-05",
+        "time": "2:59:08"
+    },
+    {
+        "lightID": 68,
+        "brightness": "\u4eae",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "3:33:02"
+    },
+    {
+        "lightID": 85,
+        "brightness": "\u5168\u4eae",
+        "colour": "green",
+        "date": "2024-07-05",
+        "time": "4:43:04"
+    },
+    {
+        "lightID": 15,
+        "brightness": "\u5168\u4eae",
+        "colour": "green",
+        "date": "2024-07-05",
+        "time": "7:32:08"
+    },
+    {
+        "lightID": 22,
+        "brightness": "\u5173",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "7:55:26"
+    },
+    {
+        "lightID": 27,
+        "brightness": "\u9002\u60a6",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "9:36:11"
+    },
+    {
+        "lightID": 10,
+        "brightness": "\u4eae",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "12:30:13"
+    },
+    {
+        "lightID": 51,
+        "brightness": "\u4eae",
+        "colour": "blue",
+        "date": "2024-07-05",
+        "time": "13:21:05"
+    },
+    {
+        "lightID": 70,
+        "brightness": "\u5168\u4eae",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "13:30:35"
+    },
+    {
+        "lightID": 38,
+        "brightness": "\u4eae",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "14:28:03"
+    },
+    {
+        "lightID": 57,
+        "brightness": "\u5168\u4eae",
+        "colour": "green",
+        "date": "2024-07-05",
+        "time": "14:57:34"
+    },
+    {
+        "lightID": 40,
+        "brightness": "\u9002\u60a6",
+        "colour": "blue",
+        "date": "2024-07-05",
+        "time": "16:11:18"
+    },
+    {
+        "lightID": 69,
+        "brightness": "\u9002\u60a6",
+        "colour": "blue",
+        "date": "2024-07-05",
+        "time": "16:16:25"
+    },
+    {
+        "lightID": 96,
+        "brightness": "\u5168\u4eae",
+        "colour": "blue",
+        "date": "2024-07-05",
+        "time": "16:43:29"
+    },
+    {
+        "lightID": 78,
+        "brightness": "\u9002\u60a6",
+        "colour": "green",
+        "date": "2024-07-05",
+        "time": "17:36:23"
+    },
+    {
+        "lightID": 67,
+        "brightness": "\u4eae",
+        "colour": "green",
+        "date": "2024-07-05",
+        "time": "17:56:09"
+    },
+    {
+        "lightID": 3,
+        "brightness": "\u9002\u60a6",
+        "colour": "green",
+        "date": "2024-07-05",
+        "time": "18:11:30"
+    },
+    {
+        "lightID": 7,
+        "brightness": "\u4eae",
+        "colour": "blue",
+        "date": "2024-07-05",
+        "time": "18:48:32"
+    },
+    {
+        "lightID": 87,
+        "brightness": "\u9002\u60a6",
+        "colour": "blue",
+        "date": "2024-07-05",
+        "time": "19:00:52"
+    },
+    {
+        "lightID": 66,
+        "brightness": "\u5168\u4eae",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "20:00:20"
+    },
+    {
+        "lightID": 17,
+        "brightness": "\u9002\u60a6",
+        "colour": "blue",
+        "date": "2024-07-05",
+        "time": "20:25:04"
+    },
+    {
+        "lightID": 48,
+        "brightness": "\u9002\u60a6",
+        "colour": "green",
+        "date": "2024-07-05",
+        "time": "21:43:52"
+    },
+    {
+        "lightID": 89,
+        "brightness": "\u5173",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "22:45:47"
+    },
+    {
+        "lightID": 88,
+        "brightness": "\u9002\u60a6",
+        "colour": "red",
+        "date": "2024-07-05",
+        "time": "22:54:18"
+    },
+    {
+        "lightID": 63,
+        "brightness": "\u9002\u60a6",
+        "colour": "green",
+        "date": "2024-07-05",
+        "time": "23:17:38"
+    }
+]

@@ -1,0 +1,106 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    height: 100vh;  
+}  
+  
+header {  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;  
+    margin-bottom: 10px;  
+    color: #ffffff;
+    background-color: #b7d8ec; /* 可选，为主标题添加背景色 */ 
+    width: 100%; 
+}  
+  
+.container {  
+    display: flex;  
+    width: 90%;  
+    max-width: 1200px;  
+    margin: 0 auto;  
+}  
+  
+.sidebar {  
+    width: 250px; /* 设定一个具体的宽度 */  
+    height: 100%; /* 如果需要列表占满侧栏高度 */ 
+    padding: 20px;  
+    background-color: #f4f4f4;  
+    border-right: 1px solid #ddd;  
+}  
+  
+.sidebar ul {  
+    list-style-type: none;  
+    height: 100%; /* 如果需要列表占满侧栏高度 */  
+    padding: 0;  
+}  
+  
+.sidebar li {  
+    margin-bottom: 30px;  
+}  
+  
+.sidebar a {  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    text-decoration: none;  
+    color: #333;  
+    font-weight: bold;  
+    display: block; /* 使链接占据整行 */  
+    padding: 8px;  
+    border-radius: 4px; /* 可选，为链接添加圆角 */  
+    transition: background-color 0.3s; /* 可选，为鼠标悬停效果添加过渡 */  
+}  
+
+.sidebar a:hover {  
+    background-color: #b7d8ec; /* 鼠标悬停时的背景色 */   
+}  
+
+.charts_container {  
+    display: flex;  
+    flex-direction: column; /* 仍然是列方向，但子容器可以内部使用行方向 */  
+    width: 75%;  
+    max-width: 1000px;  
+    margin: 0 auto;  
+}  
+  
+.header-row { /* 新的样式类，用于设置灯图标和当前日期在同一行 */  
+    display: flex;  
+    align-items: center; /* 垂直居中对齐子元素 */  
+    width: 100%; /* 填满父容器宽度 */  
+    margin-bottom: 20px; /* 可选：为下面的元素添加一些间距 */  
+}  
+  
+.chart_wrapper {  
+    /* 移除宽度设置，使其自动填充容器宽度 */  
+    width: 100%; /* 调整为100%，以填满父容器 */  
+    position: relative;  
+    margin-bottom: 20px; /* 添加底部外边距以分隔图表 */  
+}  
+  
+.chart_wrapper canvas {  
+    width: 80%;  
+    height: 250px;  
+}   
+  
+.chart_wrapper p {  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    text-align: center;  
+    margin-bottom: 10px;  
+}
+
+#currentLight {  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    margin: 0 0 1px 0; /* 示例：添加一些外边距，底部稍大一些以与其他内容分隔 */  
+}
+
+#currentDate {  
+    background-color: #daebf6; /* 浅蓝色背景 */  
+    padding: 1px; /* 示例：添加一些内边距 */  
+    margin: 0 0 2px 0; /* 示例：添加一些外边距，底部稍大一些以与其他内容分隔 */  
+}

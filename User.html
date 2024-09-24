@@ -1,0 +1,49 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>User</title>  
+    <link rel="stylesheet" href="User.css">  
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+</head>  
+<body>  
+    <header>  
+        <h1>Welcome to Smart Home</h1>  
+    </header>  
+    <div class="container">  
+        <nav class="sidebar">  
+            <ul>  
+                <li><a href="Smart Home.html">Home</a></li>  
+                <li><a href="Window.html">Window</a></li>  
+                <li><a href="Door.html">Door</a></li>  
+                <li><a href="Light.html">Light</a></li>  
+                <li><a href="Temp.html">Temperature</a></li>  
+                <li><a href="Wetness.html">Wetness</a></li>  
+                <li><a href="Fan.html">Fan</a></li>  
+                <li><a href="User.html">User</a></li>  
+                <li><a href="Login.html">退出登录</a></li> 
+            </ul>  
+        </nav>  
+        <div class="main-content">  
+            <h2>用户信息录入</h2>  
+            <div id="user-input-form">  
+                <input type="text" id="account" placeholder="账号" required>  
+                <input type="password" id="password" placeholder="密码" required>  
+                <input type="password" id="confirm-password" placeholder="确认密码" required>  
+                <input type="text" id="name" placeholder="昵称" required>  
+                <input type="text" id="gender" placeholder="性别" required>  
+                <input type="text" id="phoneNo" placeholder="手机号" required>  
+                <select id="permission">  
+                    <option value="Manager">manager</option>  
+                    <option value="Guest">guest</option>  
+                </select>  
+                <button onclick="addUserInfo()">+</button>  
+                <ul id="user-list"></ul>  
+            </div>  
+        </div>
+      
+        <script src="User.js"></script>  
+    </div>  
+</body>  
+</html>

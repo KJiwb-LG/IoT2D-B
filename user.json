@@ -1,0 +1,56 @@
+[
+    {
+        "userID": 1,
+        "account": 111,
+        "password": "299fa04aad61a8b6d99950e0d4164f1e",
+        "name": "xkc",
+        "gender": "男",
+        "phoneNo": "18507716439",
+        "permission": "Manager"
+    },
+    {
+        "userID": 2,
+        "account": 222,
+        "password": "e6b8951c01bdc7ff63a650ba78cdeb55",
+        "name": "ljy",
+        "gender": "女",
+        "phoneNo": "11111111111",
+        "permission": "Manager"
+    },
+    {
+        "userID": 3,
+        "account": 333,
+        "password": "42c17f2324db26145e2a4e0e9a2cb819",
+        "name": "yzy",
+        "gender": "男",
+        "phoneNo": "33333333333",
+        "permission": "Manager"
+    },
+    {
+        "userID": 4,
+        "account": 0,
+        "password": "38c900d75b215fbc0db095fbd8debc10",
+        "name": "0",
+        "gender": "0",
+        "phoneNo": "00000000000",
+        "permission": "Manager"
+    },
+    {
+        "userID": 5,
+        "account": 999,
+        "password": "8464eacf1be4389ae9aed8158a442d56",
+        "name": "user1",
+        "gender": "",
+        "phoneNo": "00000000000",
+        "permission": "Manager"
+    },
+    {
+        "userID": 7,
+        "account": 888,
+        "password": "d480612fa1a16606056b94bf377ae660",
+        "name": "888",
+        "gender": "女",
+        "phoneNo": "88888888888",
+        "permission": "Guest"
+    }
+]

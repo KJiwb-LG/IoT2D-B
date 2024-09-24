@@ -1,0 +1,702 @@
+[
+    {
+        "switchID": 48,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-03",
+        "time": "0:47:57"
+    },
+    {
+        "switchID": 9,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-03",
+        "time": "1:33:36"
+    },
+    {
+        "switchID": 76,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-03",
+        "time": "2:03:51"
+    },
+    {
+        "switchID": 54,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-03",
+        "time": "2:44:24"
+    },
+    {
+        "switchID": 43,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-03",
+        "time": "2:45:20"
+    },
+    {
+        "switchID": 53,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-03",
+        "time": "3:23:24"
+    },
+    {
+        "switchID": 7,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-03",
+        "time": "4:13:48"
+    },
+    {
+        "switchID": 17,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-03",
+        "time": "4:20:24"
+    },
+    {
+        "switchID": 47,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-03",
+        "time": "4:47:44"
+    },
+    {
+        "switchID": 57,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-03",
+        "time": "5:08:03"
+    },
+    {
+        "switchID": 65,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-03",
+        "time": "6:15:15"
+    },
+    {
+        "switchID": 63,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-03",
+        "time": "8:05:39"
+    },
+    {
+        "switchID": 100,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-03",
+        "time": "8:48:23"
+    },
+    {
+        "switchID": 56,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-03",
+        "time": "9:27:58"
+    },
+    {
+        "switchID": 45,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-03",
+        "time": "10:06:28"
+    },
+    {
+        "switchID": 30,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-03",
+        "time": "10:10:45"
+    },
+    {
+        "switchID": 22,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-03",
+        "time": "10:56:19"
+    },
+    {
+        "switchID": 67,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-03",
+        "time": "12:09:17"
+    },
+    {
+        "switchID": 23,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-03",
+        "time": "14:04:49"
+    },
+    {
+        "switchID": 4,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-03",
+        "time": "15:30:19"
+    },
+    {
+        "switchID": 29,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-03",
+        "time": "16:01:47"
+    },
+    {
+        "switchID": 8,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-03",
+        "time": "16:48:30"
+    },
+    {
+        "switchID": 10,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-03",
+        "time": "18:40:37"
+    },
+    {
+        "switchID": 98,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-03",
+        "time": "21:13:21"
+    },
+    {
+        "switchID": 95,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-03",
+        "time": "21:18:34"
+    },
+    {
+        "switchID": 51,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-03",
+        "time": "23:24:12"
+    },
+    {
+        "switchID": 78,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-03",
+        "time": "23:28:05"
+    },
+    {
+        "switchID": 6,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-03",
+        "time": "23:51:55"
+    },
+    {
+        "switchID": 34,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "1:47:35"
+    },
+    {
+        "switchID": 27,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-04",
+        "time": "2:50:42"
+    },
+    {
+        "switchID": 14,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-04",
+        "time": "4:27:33"
+    },
+    {
+        "switchID": 87,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-04",
+        "time": "4:58:12"
+    },
+    {
+        "switchID": 88,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-04",
+        "time": "5:50:12"
+    },
+    {
+        "switchID": 60,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "6:18:03"
+    },
+    {
+        "switchID": 19,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "6:28:32"
+    },
+    {
+        "switchID": 61,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "6:32:11"
+    },
+    {
+        "switchID": 62,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "6:35:20"
+    },
+    {
+        "switchID": 77,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-04",
+        "time": "6:48:37"
+    },
+    {
+        "switchID": 93,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "7:11:41"
+    },
+    {
+        "switchID": 38,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "8:45:15"
+    },
+    {
+        "switchID": 26,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "9:14:35"
+    },
+    {
+        "switchID": 74,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "10:11:05"
+    },
+    {
+        "switchID": 90,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "11:09:36"
+    },
+    {
+        "switchID": 59,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "11:18:13"
+    },
+    {
+        "switchID": 96,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-04",
+        "time": "11:43:59"
+    },
+    {
+        "switchID": 3,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "11:46:26"
+    },
+    {
+        "switchID": 72,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "12:06:44"
+    },
+    {
+        "switchID": 39,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "14:15:36"
+    },
+    {
+        "switchID": 1,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-04",
+        "time": "14:28:41"
+    },
+    {
+        "switchID": 21,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-04",
+        "time": "14:45:21"
+    },
+    {
+        "switchID": 13,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "14:57:50"
+    },
+    {
+        "switchID": 49,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "15:03:17"
+    },
+    {
+        "switchID": 79,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-04",
+        "time": "15:04:07"
+    },
+    {
+        "switchID": 58,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-04",
+        "time": "15:50:57"
+    },
+    {
+        "switchID": 18,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-04",
+        "time": "18:45:41"
+    },
+    {
+        "switchID": 11,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "18:45:56"
+    },
+    {
+        "switchID": 37,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "19:11:44"
+    },
+    {
+        "switchID": 97,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "19:44:16"
+    },
+    {
+        "switchID": 81,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-04",
+        "time": "23:50:56"
+    },
+    {
+        "switchID": 55,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "0:30:38"
+    },
+    {
+        "switchID": 32,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-05",
+        "time": "0:36:50"
+    },
+    {
+        "switchID": 70,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "2:48:22"
+    },
+    {
+        "switchID": 16,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "3:13:22"
+    },
+    {
+        "switchID": 50,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "3:58:15"
+    },
+    {
+        "switchID": 66,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "5:43:05"
+    },
+    {
+        "switchID": 75,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-05",
+        "time": "6:38:03"
+    },
+    {
+        "switchID": 33,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-05",
+        "time": "7:23:26"
+    },
+    {
+        "switchID": 83,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-05",
+        "time": "8:39:12"
+    },
+    {
+        "switchID": 52,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-05",
+        "time": "10:06:05"
+    },
+    {
+        "switchID": 24,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "10:13:03"
+    },
+    {
+        "switchID": 35,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "10:16:46"
+    },
+    {
+        "switchID": 15,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-05",
+        "time": "11:27:23"
+    },
+    {
+        "switchID": 12,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-05",
+        "time": "11:49:15"
+    },
+    {
+        "switchID": 25,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-05",
+        "time": "12:48:04"
+    },
+    {
+        "switchID": 71,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-05",
+        "time": "13:47:08"
+    },
+    {
+        "switchID": 94,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "14:05:57"
+    },
+    {
+        "switchID": 46,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "14:10:27"
+    },
+    {
+        "switchID": 41,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-05",
+        "time": "14:27:19"
+    },
+    {
+        "switchID": 5,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-05",
+        "time": "15:50:18"
+    },
+    {
+        "switchID": 36,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "16:03:31"
+    },
+    {
+        "switchID": 64,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-05",
+        "time": "16:40:47"
+    },
+    {
+        "switchID": 20,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-05",
+        "time": "16:57:15"
+    },
+    {
+        "switchID": 40,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "18:26:48"
+    },
+    {
+        "switchID": 92,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-05",
+        "time": "18:43:05"
+    },
+    {
+        "switchID": 69,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-05",
+        "time": "19:08:13"
+    },
+    {
+        "switchID": 80,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "19:46:09"
+    },
+    {
+        "switchID": 82,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "19:55:38"
+    },
+    {
+        "switchID": 44,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "20:06:04"
+    },
+    {
+        "switchID": 84,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-05",
+        "time": "20:06:43"
+    },
+    {
+        "switchID": 85,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-05",
+        "time": "20:12:04"
+    },
+    {
+        "switchID": 2,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-05",
+        "time": "22:02:16"
+    },
+    {
+        "switchID": 86,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "22:32:46"
+    },
+    {
+        "switchID": 73,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "22:41:46"
+    },
+    {
+        "switchID": 91,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "22:43:05"
+    },
+    {
+        "switchID": 68,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-05",
+        "time": "22:55:37"
+    },
+    {
+        "switchID": 42,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "23:02:16"
+    },
+    {
+        "switchID": 99,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u7761\u89c9",
+        "date": "2024-07-05",
+        "time": "23:14:16"
+    },
+    {
+        "switchID": 31,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u901a\u98ce",
+        "date": "2024-07-05",
+        "time": "23:28:33"
+    },
+    {
+        "switchID": 89,
+        "setState": "\u5173\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-05",
+        "time": "23:49:22"
+    },
+    {
+        "switchID": 28,
+        "setState": "\u5f00\u7a97",
+        "setReason": "\u4e0b\u96e8",
+        "date": "2024-07-05",
+        "time": "23:57:56"
+    }
+]

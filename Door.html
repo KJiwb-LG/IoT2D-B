@@ -1,0 +1,56 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Window</title>  
+    <link rel="stylesheet" href="Door.css">  
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+</head>  
+<body>  
+    <header>  
+        <h1>Welcome to Smart Home</h1>  
+    </header>  
+    <div class="container">  
+        <nav class="sidebar">  
+            <ul>  
+                <li><a href="Smart Home.html">Home</a></li>  
+                <li><a href="Window.html">Window</a></li>  
+                <li><a href="Door.html">Door</a></li>  
+                <li><a href="Light.html">Light</a></li>  
+                <li><a href="Temp.html">Temperature</a></li>  
+                <li><a href="Wetness.html">Wetness</a></li>  
+                <li><a href="Fan.html">Fan</a></li>  
+                <li><a href="User.html">User</a></li>  
+                <li><a href="Login.html">退出登录</a></li> 
+            </ul>  
+        </nav>  
+        <div class="main-content">  
+            <label for="datePicker">Select Date:</label>    
+            <input type="date" id="datePicker" onchange="updateTable(this.value)">   
+            <div class="table-container">    
+                <h2>开门监控记录</h2>    
+                <table id="doorLogsTable">    
+                    <thead>    
+                        <tr>    
+                            <th>时间</th>    
+                            <th>进入方式</th>  
+                            <th>检测人员信息</th>  
+                            <th>检测是否通过</th>    
+                        </tr>    
+                    </thead>    
+                    <tbody id="tableBody">  
+                        <!-- 动态填充的行将放在这里 -->  
+                    </tbody>    
+                </table>    
+                <div id="pagination">    
+                    <button onclick="prevPage()">上一页</button>    
+                    <span id="pageInfo">Page 1/1</span>    
+                    <button onclick="nextPage()">下一页</button>    
+                </div>   
+            </div>
+        </div>   
+        <script src="Door.js"></script>  
+    </div> 
+</body>  
+</html>

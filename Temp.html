@@ -1,0 +1,72 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Temperature</title>  
+    <link rel="stylesheet" href="Temp.css">  
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">  
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>  
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>   -->
+</head>  
+<body>  
+    <header>  
+        <h1>Welcome to Smart Home</h1>  
+    </header>  
+    <div class="container">  
+        <nav class="sidebar">  
+            <ul>  
+                <li><a href="Smart Home.html">Home</a></li>  
+                <li><a href="Window.html">Window</a></li>  
+                <li><a href="Door.html">Door</a></li>  
+                <li><a href="Light.html">Light</a></li>  
+                <li><a href="Temp.html">Temperature</a></li>  
+                <li><a href="Wetness.html">Wetness</a></li>  
+                <li><a href="Fan.html">Fan</a></li>  
+                <li><a href="User.html">User</a></li>  
+                <li><a href="Login.html">退出登录</a></li> 
+            </ul>  
+        </nav>  
+        <div class="chart_container">  
+            <p id="currentDate">Current Date</p>  
+            <!-- 选择需要查看的日期 -->
+            <label for="datePicker">Select Date:</label>  
+            <input type="date" id="datePicker" onchange="updateChart(this.value)">  
+            <!-- 显示当日最高温、最低温 -->
+            <div class="hightemp-row"> <!-- 新的容器用于包含高温图标和最高温 -->  
+                <div id="lightpicture">  
+                    <img src="temphigh.png" alt="高温图标" width="45" height="45">  
+                </div>  
+                <div class="hightemp">  
+                    <p id="highestTemp">Highest temperature: </p>  
+                </div>   
+            </div> 
+            <div class="lowtemp-row"> <!-- 新的容器用于包含高温图标和最低温 -->  
+                <div id="lightpicture">  
+                    <img src="templow.png" alt="低温图标" width="45" height="45">  
+                </div>  
+                <div class="lowtemp">  
+                    <p id="lowestTemp">Lowest temperature: </p>  
+                </div>  
+            </div> 
+            <div class="averagetemp-row"> <!-- 容器用于包含平均温 -->  
+                <div id="lightpicture">  
+                    <img src="tempaverage.png" alt="平均温图标" width="50" height="50">  
+                </div>  
+                <div class="averagetemp">  
+                    <p id="averageTemp">Anverage temperature: </p>  
+                </div>  
+            </div>  
+            <p>Today's temperature</p>  
+            <canvas id="myChart"></canvas>  
+        </div>  
+        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>  
+        <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/min/moment.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1.0.0"></script>
+        <script src="Temp.js"></script>  
+    </div>  
+</body>  
+</html>

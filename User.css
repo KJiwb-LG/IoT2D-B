@@ -1,0 +1,128 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    height: 100vh;  
+}  
+  
+header {  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;  
+    margin-bottom: 10px;  
+    color: #ffffff;
+    background-color: #b7d8ec; /* 可选，为主标题添加背景色 */ 
+    width: 100%; 
+}  
+  
+.container {  
+    display: flex;  
+    width: 90%;  
+    max-width: 1200px;  
+    margin: 0 auto;  
+}  
+  
+.sidebar {  
+    width: 250px; /* 设定一个具体的宽度 */  
+    padding: 20px;  
+    background-color: #f4f4f4;  
+    border-right: 1px solid #ddd;  
+}  
+  
+.sidebar ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+  
+.sidebar li {  
+    margin-bottom: 30px;  
+}  
+  
+.sidebar a {  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    text-decoration: none;  
+    color: #333;  
+    font-weight: bold;  
+    display: block; /* 使链接占据整行 */  
+    padding: 8px;  
+    border-radius: 4px; /* 可选，为链接添加圆角 */  
+    transition: background-color 0.3s; /* 可选，为鼠标悬停效果添加过渡 */  
+}  
+
+.sidebar a:hover {  
+    background-color: #b7d8ec; /* 鼠标悬停时的背景色 */  
+}  
+  
+.content {  
+    flex: 3;  
+    padding: 20px;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+  
+/* 标题样式 */  
+.main-content h2 {  
+    text-align: center;  
+    color: #333;  
+    margin-bottom: 20px;  
+    margin-left: 40px;
+}  
+  
+/* 表单容器样式 */  
+#user-input-form {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: flex-start;  
+    margin-left: 40px;
+}  
+  
+/* 输入框和选择框样式 */  
+#user-input-form input,  
+#user-input-form select {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+}  
+  
+/* 确认密码框特别样式（可选） */  
+#confirm-password {  
+    margin-bottom: 20px; /* 增加一些间距以便于区分 */  
+}  
+  
+/* 按钮样式 */  
+#user-input-form button {  
+    width: 100%;  
+    padding: 10px;  
+    background-color: #8fbed4;  
+    color: white;  
+    border: none;  
+    border-radius: 4px;  
+    cursor: pointer;  
+    transition: background-color 0.3s;  
+}  
+  
+#user-input-form button:hover {  
+    background-color: #8fbed4;  
+}  
+  
+/* 用户列表样式 */  
+#user-list {  
+    list-style-type: none;  
+    padding: 0;  
+    margin-top: 20px;  
+}  
+  
+#user-list li {  
+    padding: 10px;  
+    background-color: #ffffff;  
+    border: 1px solid #dee2e6;  
+    margin-bottom: 5px;  
+    border-radius: 4px;  
+}

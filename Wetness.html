@@ -1,0 +1,72 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Temperature</title>  
+    <link rel="stylesheet" href="Wetness.css">  
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">  
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>  
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>   -->
+</head>  
+<body>  
+    <header>  
+        <h1>Welcome to Smart Home</h1>  
+    </header>  
+    <div class="container">  
+        <nav class="sidebar">  
+            <ul>  
+                <li><a href="Smart Home.html">Home</a></li>  
+                <li><a href="Window.html">Window</a></li>  
+                <li><a href="Door.html">Door</a></li>  
+                <li><a href="Light.html">Light</a></li>  
+                <li><a href="Temp.html">Temperature</a></li>  
+                <li><a href="Wetness.html">Wetness</a></li>  
+                <li><a href="Fan.html">Fan</a></li>  
+                <li><a href="User.html">User</a></li>  
+                <li><a href="Login.html">退出登录</a></li> 
+            </ul>  
+        </nav>  
+        <div class="chart_container">  
+            <p id="currentDate">Current Date</p>  
+            <!-- 选择需要查看的日期 -->
+            <label for="datePicker">Select Date:</label>  
+            <input type="date" id="datePicker" onchange="updateChart(this.value)">  
+            <!-- 显示当日最高湿度、最低温度 -->
+            <div class="highwet-row"> <!-- 新的容器用于包含最高湿度图标 -->  
+                <div id="lightpicture">  
+                    <img src="wethigh.png" alt="高湿度图标" width="45" height="45">  
+                </div>  
+                <div class="highwet">  
+                    <p id="highestWet">Highest wetness: </p>  
+                </div>   
+            </div> 
+            <div class="lowwet-row"> <!-- 新的容器用于包含最低湿度图标 -->  
+                <div id="lightpicture">  
+                    <img src="wetlow.png" alt="低湿度图标" width="45" height="45">  
+                </div>  
+                <div class="lowwet">  
+                    <p id="lowestWet">Lowest wetness: </p>  
+                </div>  
+            </div> 
+            <div class="averagewet-row"> <!-- 容器用于包含平均湿度 -->  
+                <div id="lightpicture">  
+                    <img src="wetaverage.jpg" alt="平均湿度图标" width="50" height="50">  
+                </div>  
+                <div class="averagewet">  
+                    <p id="averageWet">Anverage wetness: </p>  
+                </div>  
+            </div> 
+            <p>Today's wetness</p>  
+            <canvas id="myChart"></canvas>  
+        </div>  
+        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>  
+        <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/min/moment.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1.0.0"></script>
+        <script src="Wetness.js"></script>  
+    </div>  
+</body>  
+</html>
