@@ -3,6 +3,7 @@ import hashlib
 import mysql.connector
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from datetime import datetime
 import toJSON
 
 
@@ -66,6 +67,23 @@ def log_control():
     insert(insert_sql)
     toJSON.export_table_to_json("control")
     return jsonify({"status": True, "message": "记录窗户控制成功"})
+
+
+@app.route('/log_collection', methods=['POST'])
+def log_collection():
+    data = request.json
+    now = datetime.now()
+    date = now.strftime('%Y-%m-%d')
+    time = now.strftime('%H:%M:%S')
+    humidity = data.get("Humidity")
+    temperature = data.get("Temperature")
+    light_intensity = data.get("LightIntensity")
+    value = f"'{date}', '{time}', {humidity}, {temperature}, {light_intensity}, 0"
+    insert_sql = f"INSERT INTO Collection (collectionDate, collectionTime, wetness, temperature, lightness, COH) VALUES ({value});"
+    print(insert_sql)
+    insert(insert_sql)
+    toJSON.export_table_to_json("collection")
+    return jsonify({"status": True, "message": "数据收集成功"})
 
 
 def fetch_one(sql):

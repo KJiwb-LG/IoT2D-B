@@ -2095,5 +2095,122 @@
         "operation": "关窗",
         "controlReason": "系统端更改",
         "userID": null
+    },
+    {
+        "controlID": 234,
+        "controlDate": "2024-09-24",
+        "controlTime": "15:25:55",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 235,
+        "controlDate": "2024-09-25",
+        "controlTime": "13:41:21",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 236,
+        "controlDate": "2024-09-25",
+        "controlTime": "13:49:52",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 237,
+        "controlDate": "2024-09-25",
+        "controlTime": "13:49:53",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 238,
+        "controlDate": "2024-09-25",
+        "controlTime": "13:51:15",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 239,
+        "controlDate": "2024-09-25",
+        "controlTime": "13:51:16",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 240,
+        "controlDate": "2024-09-25",
+        "controlTime": "13:55:48",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 241,
+        "controlDate": "2024-09-25",
+        "controlTime": "13:55:49",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 242,
+        "controlDate": "2024-09-25",
+        "controlTime": "13:56:28",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 243,
+        "controlDate": "2024-09-25",
+        "controlTime": "13:56:49",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 244,
+        "controlDate": "2024-09-25",
+        "controlTime": "15:12:49",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 245,
+        "controlDate": "2024-09-25",
+        "controlTime": "15:13:00",
+        "device": "窗",
+        "operation": "开窗",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 246,
+        "controlDate": "2024-10-06",
+        "controlTime": "16:20:13",
+        "device": "窗",
+        "operation": "关窗",
+        "controlReason": "系统端更改",
+        "userID": null
     }
 ]

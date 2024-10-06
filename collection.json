@@ -11365,5 +11365,203 @@
         "temperature": 31,
         "lightness": 389,
         "COH": 63
+    },
+    {
+        "collectionID": 1264,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "16:28:43",
+        "wetness": 55,
+        "temperature": 23,
+        "lightness": 300,
+        "COH": 0
+    },
+    {
+        "collectionID": 1265,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:07",
+        "wetness": 68,
+        "temperature": 24,
+        "lightness": 594,
+        "COH": 0
+    },
+    {
+        "collectionID": 1266,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:40",
+        "wetness": 32,
+        "temperature": 14,
+        "lightness": 703,
+        "COH": 0
+    },
+    {
+        "collectionID": 1267,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:41",
+        "wetness": 49,
+        "temperature": 21,
+        "lightness": 822,
+        "COH": 0
+    },
+    {
+        "collectionID": 1268,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:42",
+        "wetness": 30,
+        "temperature": 11,
+        "lightness": 138,
+        "COH": 0
+    },
+    {
+        "collectionID": 1269,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:43",
+        "wetness": 30,
+        "temperature": 15,
+        "lightness": 826,
+        "COH": 0
+    },
+    {
+        "collectionID": 1270,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:44",
+        "wetness": 50,
+        "temperature": 22,
+        "lightness": 496,
+        "COH": 0
+    },
+    {
+        "collectionID": 1271,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:45",
+        "wetness": 39,
+        "temperature": 12,
+        "lightness": 223,
+        "COH": 0
+    },
+    {
+        "collectionID": 1272,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:46",
+        "wetness": 38,
+        "temperature": 12,
+        "lightness": 752,
+        "COH": 0
+    },
+    {
+        "collectionID": 1273,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:47",
+        "wetness": 53,
+        "temperature": 11,
+        "lightness": 614,
+        "COH": 0
+    },
+    {
+        "collectionID": 1274,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:47",
+        "wetness": 42,
+        "temperature": 20,
+        "lightness": 133,
+        "COH": 0
+    },
+    {
+        "collectionID": 1275,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:48",
+        "wetness": 59,
+        "temperature": 14,
+        "lightness": 514,
+        "COH": 0
+    },
+    {
+        "collectionID": 1276,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:49",
+        "wetness": 61,
+        "temperature": 13,
+        "lightness": 724,
+        "COH": 0
+    },
+    {
+        "collectionID": 1277,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:50",
+        "wetness": 64,
+        "temperature": 10,
+        "lightness": 628,
+        "COH": 0
+    },
+    {
+        "collectionID": 1278,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:51",
+        "wetness": 39,
+        "temperature": 15,
+        "lightness": 403,
+        "COH": 0
+    },
+    {
+        "collectionID": 1279,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:51",
+        "wetness": 53,
+        "temperature": 26,
+        "lightness": 803,
+        "COH": 0
+    },
+    {
+        "collectionID": 1280,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:52",
+        "wetness": 47,
+        "temperature": 10,
+        "lightness": 589,
+        "COH": 0
+    },
+    {
+        "collectionID": 1281,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:53",
+        "wetness": 56,
+        "temperature": 10,
+        "lightness": 266,
+        "COH": 0
+    },
+    {
+        "collectionID": 1282,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:54",
+        "wetness": 38,
+        "temperature": 17,
+        "lightness": 358,
+        "COH": 0
+    },
+    {
+        "collectionID": 1283,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:54",
+        "wetness": 48,
+        "temperature": 15,
+        "lightness": 344,
+        "COH": 0
+    },
+    {
+        "collectionID": 1284,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:55",
+        "wetness": 59,
+        "temperature": 15,
+        "lightness": 325,
+        "COH": 0
+    },
+    {
+        "collectionID": 1285,
+        "collectionDate": "2024-10-06",
+        "collectionTime": "17:07:56",
+        "wetness": 34,
+        "temperature": 15,
+        "lightness": 395,
+        "COH": 0
     }
 ]

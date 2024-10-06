@@ -42,7 +42,8 @@ function prevPage() {
 }  
 
 function nextPage() {  
-    fetchData();
+    dateValue = document.getElementById('datePicker').getAttribute('dateValue');
+    fetchData(dateValue);
     updatePageInfo();
     const maxPages = Math.ceil(totalRows / rowsPerPage);  
     if (currentPage < maxPages) {  
@@ -78,7 +79,7 @@ let totalRows = 0; // 我们稍后会从数据数组中设置这个值
 totalRows = data.length;
 
 //更新数据
-fetchData();
+fetchData(new Date().toISOString().split('T')[0]);
 
 var table = document.getElementById("myTable");  
 // 如果tbody不存在，则创建一个并添加到table中  
@@ -86,7 +87,7 @@ var tbody = table.getElementsByTagName("tbody")[0] || document.createElement("tb
 table.appendChild(tbody); // 确保tbody是table的子元素  
 
 
-async function fetchData(){
+async function fetchData(targetDate){
     try{
         // 读取并解析JSON文件
         const response = await fetch('http://localhost:8080/control.json');
@@ -95,7 +96,9 @@ async function fetchData(){
         // 定义要过滤的内容
         const target = "窗";
         // 过滤数据
-        const filteredData = jsonData.filter(entry => entry.device === target);
+        const filteredData = jsonData.filter(entry => entry.device === target &&
+                                                      entry.controlDate === targetDate
+        );
 
         const newData = filteredData.map(entry => [
             `${entry.controlDate} ${entry.controlTime}`, 
@@ -109,6 +112,8 @@ async function fetchData(){
         fillTable(currentPage);
 
         console.log('Updated Data:', data);
+
+        document.getElementById('datePicker').setAttribute('dateValue', targetDate);
     } catch (error) {
         console.error('Error fetching customer data:', error);
     }

@@ -32,7 +32,7 @@
                 <button id="windowButtonOpen" class="window-button right">开</button>  
             </div> 
             <label for="datePicker">查询当日开关窗记录:</label>    
-            <input type="date" id="datePicker" onchange="updateTable(this.value)">   
+            <input type="date" id="datePicker" onchange="fetchData(this.value)" dateValue="">   
             <div class="table-container">  
                 <h2>开关窗记录</h2>  
                 <table id="myTable">  
