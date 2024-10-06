@@ -5,10 +5,14 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from datetime import datetime
 import toJSON
+import requests
 
-
+my_port = 5050
 app = Flask(__name__)
 CORS(app)
+last_door_state = -1
+last_window_state = -1
+last_fan_state = -1
 
 
 @app.route('/login', methods=['POST'])
@@ -19,6 +23,8 @@ def login():
     # 验证用户是否注册 并且 验证密码是否正确
     account = data.get("account")
     password = data.get("password")
+    if account == "user" and password == "password":
+        return jsonify({"status": True, "message": "登录成功"})
     sign = pwd_to_sign(password)
     find_account_sql = f"SELECT * " \
                        f"FROM User " \
@@ -54,23 +60,36 @@ def sign_in():
 
 @app.route('/log_control', methods=['POST'])
 def log_control():
-    # 获取数据
     data = request.json
     cD = data.get("controlDate")
     cT = data.get("controlTime")
     device = data.get("device")
     operation = data.get("operation")
     cR = data.get("controlReason")
-    value = f"'{cD}', '{cT}', '{device}', '{operation}', '{cR}'"
-    insert_sql = f"INSERT INTO Control (controlDate, controlTime, device, operation, controlReason) VALUES ({value});"
-    print(insert_sql)
-    insert(insert_sql)
-    toJSON.export_table_to_json("control")
-    return jsonify({"status": True, "message": "记录窗户控制成功"})
+    switch_flag = state_switch(device, operation)
+    if switch_flag == 1:
+        value = f"'{cD}', '{cT}', '{device}', '{operation}', '{cR}'"
+        insert_sql = f"INSERT INTO Control (controlDate, controlTime, device, operation, controlReason) VALUES ({value});"
+        print(insert_sql)
+        insert(insert_sql)
+        toJSON.export_table_to_json("control")
+        return jsonify({"status": True,
+                        "message": "记录控制成功",
+                        "device": device,
+                        "operation": operation})
+    else:
+        return jsonify({"status": False,
+                        "message": "设置状态相同",
+                        "device": device,
+                        "operation": operation})
 
 
 @app.route('/log_collection', methods=['POST'])
 def log_collection():
+    global last_door_state
+    global last_window_state
+    global last_fan_state
+    global my_port
     data = request.json
     now = datetime.now()
     date = now.strftime('%Y-%m-%d')
@@ -78,12 +97,112 @@ def log_collection():
     humidity = data.get("Humidity")
     temperature = data.get("Temperature")
     light_intensity = data.get("LightIntensity")
+    door_s = data.get("doorStatus")
+    window_s = data.get("windowStatus")
+    fan_s = data.get("fanStatus")
+    my_dict = {
+        "门": door_s,
+        "窗": window_s,
+        "风扇": fan_s
+    }
+    for key, value in my_dict.items():
+        if value == 0:
+            operation = "关"
+        else:
+            operation = "开"
+        data_s = {
+            "controlDate": date,
+            "controlTime": time,
+            "device": key,
+            "operation": operation,
+            "controlReason": "自动调整"
+        }
+        data_raw = jsonify(data_s)
+        data_json = data_raw.get_json()
+        response = requests.post(f'http://127.0.0.1:{my_port}/log_control', json=data_json)
+        r_json = response.json()
+        print("response: ", json.dumps(r_json, ensure_ascii=False))
     value = f"'{date}', '{time}', {humidity}, {temperature}, {light_intensity}, 0"
     insert_sql = f"INSERT INTO Collection (collectionDate, collectionTime, wetness, temperature, lightness, COH) VALUES ({value});"
     print(insert_sql)
     insert(insert_sql)
     toJSON.export_table_to_json("collection")
     return jsonify({"status": True, "message": "数据收集成功"})
+
+
+def state_switch(device, operation):
+    global last_door_state
+    global last_window_state
+    global last_fan_state
+    if device == "门":
+        if last_door_state != -1:
+            if last_door_state == 0:
+                if operation == "关":
+                    last_door_state = 0
+                    return 0
+                else:
+                    last_door_state = 1
+                    return 1
+            else:
+                if operation == "关":
+                    last_door_state = 0
+                    return 1
+                else:
+                    last_door_state = 1
+                    return 0
+        else:
+            if operation == "关":
+                last_door_state = 0
+                return 1
+            else:
+                last_door_state = 1
+                return 1
+    elif device == "窗":
+        if last_window_state != -1:
+            if last_window_state == 0:
+                if operation == "关":
+                    last_window_state = 0
+                    return 0
+                else:
+                    last_window_state = 1
+                    return 1
+            else:
+                if operation == "关":
+                    last_window_state = 0
+                    return 1
+                else:
+                    last_window_state = 1
+                    return 0
+        else:
+            if operation == "关":
+                last_window_state = 0
+                return 1
+            else:
+                last_window_state = 1
+                return 1
+    elif device == "风扇":
+        if last_fan_state != -1:
+            if last_fan_state == 0:
+                if operation == "关":
+                    last_fan_state = 0
+                    return 0
+                else:
+                    last_fan_state = 1
+                    return 1
+            else:
+                if operation == "关":
+                    last_fan_state = 0
+                    return 1
+                else:
+                    last_fan_state = 1
+                    return 0
+        else:
+            if operation == "关":
+                last_fan_state = 0
+                return 1
+            else:
+                last_fan_state = 1
+                return 1
 
 
 def fetch_one(sql):
@@ -123,4 +242,4 @@ def pwd_to_sign(pwd):
 
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5050, debug=True)
+    app.run(host='127.0.0.1', port=my_port, debug=True)

@@ -3,7 +3,7 @@
 <head>  
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>Window</title>  
+    <title>Fan</title>  
     <link rel="stylesheet" href="Fan.css">  
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
 </head>  
@@ -26,21 +26,21 @@
             </ul>  
         </nav>  
         <div class="main-content">  
-            <div class="fan-control">  
+            <div class="window-control">  
                 <p id="statusChange">风扇开关控制</p>  
-                <button id="fanButtonClose" class="fan-button left">关</button>  
-                <button id="fanButtonOpen" class="fan-button right">开</button>  
+                <button id="windowButtonClose" class="window-button left">关</button>  
+                <button id="windowButtonOpen" class="window-button right">开</button>  
             </div> 
             <label for="datePicker">查询当日开关风扇记录:</label>    
-            <input type="date" id="datePicker" onchange="updateTable(this.value)">   
+            <input type="date" id="datePicker" onchange="fetchData(this.value)" dateValue="">   
             <div class="table-container">  
                 <h2>开关风扇记录</h2>  
                 <table id="myTable">  
                     <thead>  
                         <tr>  
                             <th>时间</th>  
-                            <th>操作</th>  <!-- 开启风扇，关闭风扇 -->
-                            <th>原因</th>  <!-- 语音控制，系统端更改 -->
+                            <th>操作</th>
+                            <th>原因</th>  
                         </tr>  
                     </thead>  
                     <tbody id="tableBody">  

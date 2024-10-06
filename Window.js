@@ -162,14 +162,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   
     windowButtonClose.addEventListener('click', function() {
-        const action = '关窗';
+        const action = '关';
         const reason = '系统端更改';
         logAction(action, reason);
         sendActionToServer(action, reason);
     });  
   
     windowButtonOpen.addEventListener('click', function() {  
-        const action = '开窗';
+        const action = '开';
         const reason = '系统端更改';
         logAction(action, reason);
         sendActionToServer(action, reason); 

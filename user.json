@@ -52,5 +52,23 @@
         "gender": "女",
         "phoneNo": "88888888888",
         "permission": "Guest"
+    },
+    {
+        "userID": 8,
+        "account": 6789,
+        "password": "2c0c75678aea34a66b24ec1e7ec37a49",
+        "name": "111111111",
+        "gender": "111",
+        "phoneNo": "11111111111",
+        "permission": "Manager"
+    },
+    {
+        "userID": 9,
+        "account": 127001,
+        "password": "3beb334dd65900ecf01d82d03166bcc2",
+        "name": "user",
+        "gender": "no",
+        "phoneNo": "01234567890",
+        "permission": "Manager"
     }
 ]

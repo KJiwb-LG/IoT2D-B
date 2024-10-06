@@ -1,211 +1,142 @@
-// 折线图-灯光开关状态
-const ctxLine = document.getElementById('myLineChart').getContext('2d');  
-const lineData = { 
-    labels: ['00:00', '01:00', '02:00', '03:00', '04:00', '05:00', '06:00', '07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00'],  
+const ctx = document.getElementById('myChart').getContext('2d');  
+const data = {  
+    labels: [],
     datasets: [{  
-        label: '灯光亮度',  
-        data: [0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0], // 假设的数据，表示一天中不同时间点的灯光亮度  
+        label: 'Light Intensity',  
+        data: [],  
+        fill: false, 
         backgroundColor: 'rgba(75, 192, 192, 0.2)',  
         borderColor: 'rgba(75, 192, 192, 1)',  
-        borderWidth: 1,  
-        fill: false // 不填充折线图区域  
-    }]   
+        borderWidth: 1  
+    }]  
 };  
-// 折线图选项
-const lineOptions = {  
-    scales: {  
+  
+const options = {  
+    scales: {
+        x: {
+            type: 'time',
+            time: {
+                unit: 'hour',
+                stepSize: 2,
+                displayFormats: {
+                    hour: 'HH:mm'
+                }
+            },
+            title: {
+                display: true,
+                text: 'Time'
+            }
+        },
         y: {  
             beginAtZero: true , 
             title: {  
                 display: true,  
-                text: '灯光亮度(0-1)'  
+                text: 'Light Intensity (lux)'  
             }
         }  
     }
 };  
-// 创建折线图  
-const myLineChart = new Chart(ctxLine, {  
+  
+const myLineChart = new Chart(ctx, {  
     type: 'line',  
-    data: lineData,  
-    options: lineOptions  
+    data: data,  
+    options: options  
 });
 
-
-// 柱状图数据-开灯时长
-const ctxBar = document.getElementById('myBarChart').getContext('2d');  
-const barData = {  
-    labels: ['开', '关'],  
-    datasets: [{  
-        label: '灯光亮度时间',  
-        data: [], 
-        backgroundColor: ['rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)', 'rgba(75, 192, 192, 0.2)'],  
-        borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)'],  
-        borderWidth: 1  
-    }]  
-};  
-// 柱状图选项  
-const barOptions = {  
-    scales: {  
-        y: {  
-            beginAtZero: true,
-            title: {  
-                display: true,  
-                text: '时长(h)'  
-            }
-        }  
-    }  
-};
-// 创建柱状图  
-const myBarChart = new Chart(ctxBar, {  
-    type: 'bar',  
-    data: barData,  
-    options: barOptions
-});  
-
-
-//饼状图-灯光颜色
-const ctxPie = document.getElementById('myPieChart').getContext('2d');
-const pieData = {  
-    labels: ['Red', 'Green', 'Blue'],  
-    datasets: [{  
-        label: 'Light Color Distribution',  
-        data: [], // 假设的数据，根据实际情况调整  8, 11, 5
-        backgroundColor: [  
-            'rgba(255, 99, 132, 0.2)',  
-            'rgba(75, 192, 92, 0.2)',  
-            'rgba(54, 162, 235, 0.2)'  
-        ],  
-        borderColor: [  
-            'rgba(255, 99, 132, 1)',  
-            'rgba(75, 192, 92, 1)',  
-            'rgba(54, 162, 235, 1)'  
-        ],  
-        borderWidth: 1  
-    }]  
-};
-// 饼状图选项 
-const pieOptions = {  
-    responsive: true,  
-    plugins: {  
-        legend: {  
-            position: 'top',  
-        },  
-        title: {  
-            display: true,  
-            text: 'Light Color Distribution(h)'  
-        }  
-    }  
-};
-// 创建饼状图
-const myPieChart = new Chart(ctxPie, {  
-    type: 'pie',  
-    data: pieData,  
-    options: pieOptions
-});
-        
-
-async function fetchData(){
+// 定义一个异步函数，用于获取JSON数据
+async function fetchTempData(date) {
     try {
         // 读取并解析JSON文件
-        const response = await fetch('http://localhost:8080/light.json');
+        const response = await fetch('http://localhost:8080/collection.json');
         const jsonData = await response.json();
 
+        // 定义要过滤的日期
+        const targetDate = date;
+
         // 过滤数据，仅保留指定日期的数据
-        const targetDate = '2024-07-04';
-        const filteredData = jsonData.filter(entry => entry.date === targetDate);
-        
-        //更新亮度水平柱状图
-        const newBrightData = getBrightData(filteredData);
-        barData.datasets[0].data = newBrightData;
-        myBarChart.update();
+        const filteredData = jsonData.filter(entry => entry.collectionDate === targetDate);
 
-        //更新颜色分布饼状图
-        const newColourData = getColourData(filteredData);
-        pieData.datasets[0].data = newColourData;
-        myPieChart.update();
+        // 定义采样间隔（半小时）
+        const samplingInterval = 30 * 60 * 1000; // 30分钟的毫秒数
+        const startTime = new Date(`${targetDate}T08:00:00`).getTime();
+        const endTime = new Date(`${targetDate}T22:00:00`).getTime();
 
-        console.log('new bar data:', newBrightData);
-        console.log('new pie data:', newColourData);
+        // 过滤和采样数据
+        const sampledData = [];
+        for (let time = startTime; time <= endTime; time += samplingInterval) {
+            const entry = filteredData.find(entry => {
+                const entryTime = new Date(`${entry.collectionDate}T${entry.collectionTime}`).getTime();
+                return entryTime >= time && entryTime < time + samplingInterval;
+            });
+            if (entry) {
+                sampledData.push({
+                    x: `${entry.collectionDate} ${entry.collectionTime}`,
+                    y: entry.lightness
+                });
+            }
+        }
+
+        console.log("sampledData: ", sampledData);
+
+        // 将采样后的数据赋值给data对象中的data属性
+        data.datasets[0].data = sampledData;
+        data.labels = sampledData.map(point => point.x);
+
+        // 在这里可以调用更新图表的代码，比如使用Chart.js
+        // 假设你的Chart.js图表实例名为myLineChart，可以调用myLineChart.update()
+        myLineChart.update();
+
+        console.log('Updated Data:', data.datasets[0].data);
     } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error('Error fetching customer data:', error);
     }
 }
-        
-function calcTimeDiff(filteredData){
-    return filteredData.map((entry, index, array) => {
-        if (index === 0) {
-            return null; // 第一个时间点没有前一个时间点
-        }
 
-        const prevEntry = array[index - 1];
-        const currentTime = new Date(`${entry.date} ${entry.time}`);
-        const prevTime = new Date(`${prevEntry.date} ${prevEntry.time}`);
+function findMax(data){
+    let max = data[0];
+    for(let element of data){
+        if( element > max)
+            max = element;
+    }
 
-        // 计算时间差（以小时为单位）
-        const timeDiff = (currentTime - prevTime) / (1000 * 60 * 60);
-
-        return {
-            brightness: prevEntry.brightness,
-            colour: prevEntry.colour,
-            timeDiff: timeDiff
-        };
-    }).filter(diff => diff !== null); // 移除第一个空值
+    return max;
 }
-        
-function getBrightData(filteredData){
-    // 计算相邻时间点之间的时间差
-    const diffData = calcTimeDiff(filteredData);
 
-    // 初始化累加对象
-    const accumulatedData = {
-        "全亮": 0,
-        "亮": 0,
-        "适悦": 0,
-        "关": 0
-    };
+function findMin(data){
+    let min = data[0];
+    for(let element of data){
+        if( element < min)
+            min = element;
+    }
 
-    // 累加时间差
-    diffData.forEach(diff => {
-        if (accumulatedData.hasOwnProperty(diff.brightness)) {
-            accumulatedData[diff.brightness] += diff.timeDiff;
-        }
-    });
-
-    // 将 accumulatedTimes 转化为数组
-    const accumulatedDataArray = Object.entries(accumulatedData).map(([brightness, timeDiff]) => {
-        return { brightness, timeDiff };
-    });
-
-    return accumulatedDataArray.map(entry => entry.timeDiff);
+    return min;
 }
-        
-function getColourData(filteredData){
-    // 计算相邻时间点之间的时间差
-    const diffData = calcTimeDiff(filteredData);
 
-    // 初始化累加对象
-    const accumulatedData = {
-        "red": 0,
-        "green": 0,
-        "blue": 0
-    };
-
-    // 累加时间差
-    diffData.forEach(diff => {
-        if (accumulatedData.hasOwnProperty(diff.colour)) {
-            accumulatedData[diff.colour] += diff.timeDiff;
-        }
-    });
-
-    // 将 accumulatedTimes 转化为数组
-    const accumulatedDataArray = Object.entries(accumulatedData).map(([colour, timeDiff]) => {
-        return { colour, timeDiff };
-    });
-
-    return accumulatedDataArray.map(entry => entry.timeDiff);
+function findAverage(data){
+    let sum = 0;
+    for(let element of data){
+        sum += element;
+    }
+    let avg = sum / data.length;
+    return avg.toFixed(2);
 }
-        
-        
+
+function getCurrentDate() {
+    const date = new Date(); // 创建一个新的 Date 对象，它默认包含当前日期和时间
+    const year = date.getFullYear(); // 获取当前年份
+    const month = date.getMonth() + 1; // 获取当前月份，+1 是因为 getMonth() 返回的是 0-11
+    const day = date.getDate(); // 获取当前日
+
+    // 使用模板字符串来格式化日期，确保月和日为两位数
+    return `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
+}
+
+function updateChart(date) {  
+    // 更新当前日期显示  
+    document.getElementById('currentDate').textContent = 'Date: ' + date;  
+    fetchTempData(date);
+}
+
 // 页面加载完成后执行  
 window.onload = function() {  
     // 获取当前日期  
@@ -213,26 +144,8 @@ window.onload = function() {
     var dateString = today.toDateString(); // 例如："Wed Jul 21 2021"  
 
     // 查找并更新p标签的文本  
-    document.getElementById('currentDate').textContent = 'Date: ' + dateString;
+    document.getElementById('currentDate').textContent = 'Current Date: ' + dateString;
 
-    fetchData();
-};  
-
-// 定义一个函数来更新时间  
-function updateTime() {  
-    // 获取当前时间  
-    var now = new Date();  
-    // 格式化时间，只保留时分秒  
-    var timeString = now.getHours().toString().padStart(2, '0') + ":" +   
-                     now.getMinutes().toString().padStart(2, '0') + ":" +   
-                     now.getSeconds().toString().padStart(2, '0');  
-  
-    // 获取#currentLight元素  
-    var currentLightElement = document.getElementById('currentLight');  
-  
-    // 更新内容，将时间添加到原始内容前面  
-    currentLightElement.innerHTML = timeString + " Current light : 3 · 适悦 · Green ";  
-}  
-  
-// 每隔一秒调用updateTime函数  
-setInterval(updateTime, 1000);  
+    //更新图表数据
+    fetchTempData(getCurrentDate());
+};

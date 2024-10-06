@@ -1,16 +1,16 @@
 function queryWindowStatus() {  
-    var dateTimeInput = document.getElementById('fanTime').value;
+    var dateTimeInput = document.getElementById('windowTime').value;  
     // 将datetime-local的字符串转换为Date对象  
     var date = new Date(dateTimeInput);  
     // 将Date对象转换为UNIX时间戳（秒）  
     var unixTime = Math.floor(date.getTime() / 1000);  
   
     // 使用fetch API发送请求（这里需要你的后端URL）  
-    fetch('/api/fan-status?time=' + unixTime)  
+    fetch('/api/window-status?time=' + unixTime)  
         .then(response => response.json())  
         .then(data => {  
             // 假设后端返回 { status: 'open' } 或 { status: 'closed' }  
-            document.getElementById('statusResult').textContent = '风扇状态: ' + data.status;  
+            document.getElementById('statusResult').textContent = '窗户状态: ' + data.status;  
         })  
         .catch(error => {  
             console.error('Error:', error);  
@@ -42,11 +42,14 @@ function prevPage() {
 }  
 
 function nextPage() {  
-  const maxPages = Math.ceil(totalRows / rowsPerPage);  
-  if (currentPage < maxPages) {  
-      currentPage++;  
-      fillTable(currentPage);  
-  }  
+    dateValue = document.getElementById('datePicker').getAttribute('dateValue');
+    fetchData(dateValue);
+    updatePageInfo();
+    const maxPages = Math.ceil(totalRows / rowsPerPage);  
+    if (currentPage < maxPages) {  
+        currentPage++;  
+        fillTable(currentPage);  
+    }  
 }  
 
 function updatePageInfo() {  
@@ -54,7 +57,7 @@ function updatePageInfo() {
   document.getElementById('pageInfo').innerText = `Page ${currentPage}/${maxPages}`;  
 }  
 
-// 你的数据数组  
+// 你的数据数组
 var data = [  
     ["2023-04-01 10:00", "开窗", "通风"],  
     ["2023-04-01 15:00", "关窗", "下雨"],  
@@ -76,7 +79,7 @@ let totalRows = 0; // 我们稍后会从数据数组中设置这个值
 totalRows = data.length;
 
 //更新数据
-fetchData();
+fetchData(new Date().toISOString().split('T')[0]);
 
 var table = document.getElementById("myTable");  
 // 如果tbody不存在，则创建一个并添加到table中  
@@ -84,7 +87,7 @@ var tbody = table.getElementsByTagName("tbody")[0] || document.createElement("tb
 table.appendChild(tbody); // 确保tbody是table的子元素  
 
 
-async function fetchData(){
+async function fetchData(targetDate){
     try{
         // 读取并解析JSON文件
         const response = await fetch('http://localhost:8080/control.json');
@@ -93,7 +96,9 @@ async function fetchData(){
         // 定义要过滤的内容
         const target = "风扇";
         // 过滤数据
-        const filteredData = jsonData.filter(entry => entry.device === target);
+        const filteredData = jsonData.filter(entry => entry.device === target &&
+                                                      entry.controlDate === targetDate
+        );
 
         const newData = filteredData.map(entry => [
             `${entry.controlDate} ${entry.controlTime}`, 
@@ -107,17 +112,18 @@ async function fetchData(){
         fillTable(currentPage);
 
         console.log('Updated Data:', data);
+
+        document.getElementById('datePicker').setAttribute('dateValue', targetDate);
     } catch (error) {
         console.error('Error fetching customer data:', error);
     }
 }
 
-
-/* 二阶段更改 - 将操作端数据写入表格*/
+/* 二阶段更改 */
 document.addEventListener('DOMContentLoaded', function() {  
     const statusChange = document.getElementById('statusChange');  
-    const fanButtonClose = document.getElementById('fanButtonClose');  
-    const fanButtonOpen = document.getElementById('fanButtonOpen');  
+    const windowButtonClose = document.getElementById('windowButtonClose');  
+    const windowButtonOpen = document.getElementById('windowButtonOpen');  
     const actionLog = document.getElementById('myTable').getElementsByTagName('tbody')[0];  
   
     function logAction(action, reason) {  
@@ -136,12 +142,36 @@ document.addEventListener('DOMContentLoaded', function() {
   
         actionLog.appendChild(row);  
     }  
+
+    function sendActionToServer(action, reason) {
+        fetch('http://localhost:5050/log_control', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ 
+                controlDate: new Date().toISOString().split('T')[0],
+                controlTime: new Date().toLocaleTimeString(),
+                device: "风扇",
+                operation: action,
+                controlReason: reason
+            })
+        }).then(response => response.json())
+          .then(data => console.log(data))
+          .catch(error => console.error('Error:', error));
+    }
   
-    fanButtonClose.addEventListener('click', function() { 
-        logAction('关窗', '系统端更改');  
+    windowButtonClose.addEventListener('click', function() {
+        const action = '关';
+        const reason = '系统端更改';
+        logAction(action, reason);
+        sendActionToServer(action, reason);
     });  
   
-    fanButtonOpen.addEventListener('click', function() {  
-        logAction('开窗', '系统端更改');  
+    windowButtonOpen.addEventListener('click', function() {  
+        const action = '开';
+        const reason = '系统端更改';
+        logAction(action, reason);
+        sendActionToServer(action, reason); 
     });  
 });

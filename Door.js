@@ -107,7 +107,7 @@ async function fetchData(){
         const newData = filteredData.map(entry => [
             `${entry.controlDate} ${entry.controlTime}`, 
             entry.controlReason,
-            "xkc",
+            "No.1",
             "通过"
         ]);
 

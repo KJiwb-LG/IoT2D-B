@@ -2212,5 +2212,383 @@
         "operation": "关窗",
         "controlReason": "系统端更改",
         "userID": null
+    },
+    {
+        "controlID": 247,
+        "controlDate": "2024-10-06",
+        "controlTime": "19:54:54",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 248,
+        "controlDate": "2024-10-06",
+        "controlTime": "19:54:54",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 249,
+        "controlDate": "2024-10-06",
+        "controlTime": "19:54:55",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 250,
+        "controlDate": "2024-10-06",
+        "controlTime": "19:54:55",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 251,
+        "controlDate": "2024-10-06",
+        "controlTime": "19:55:46",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 252,
+        "controlDate": "2024-10-06",
+        "controlTime": "19:55:47",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 253,
+        "controlDate": "2024-10-06",
+        "controlTime": "19:55:47",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 254,
+        "controlDate": "2024-10-06",
+        "controlTime": "19:56:06",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 255,
+        "controlDate": "2024-10-06",
+        "controlTime": "19:56:06",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 256,
+        "controlDate": "2024-10-06",
+        "controlTime": "19:56:07",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 257,
+        "controlDate": "2024-10-06",
+        "controlTime": "20:18:27",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 258,
+        "controlDate": "2024-10-06",
+        "controlTime": "20:18:31",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 259,
+        "controlDate": "2024-10-06",
+        "controlTime": "20:18:33",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 260,
+        "controlDate": "2024-10-06",
+        "controlTime": "20:18:34",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 261,
+        "controlDate": "2024-10-06",
+        "controlTime": "20:20:30",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 262,
+        "controlDate": "2024-10-06",
+        "controlTime": "20:20:39",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 263,
+        "controlDate": "2024-10-06",
+        "controlTime": "22:41:02",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 264,
+        "controlDate": "2024-10-06",
+        "controlTime": "22:41:10",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 265,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:37:01",
+        "device": "门",
+        "operation": "1",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 266,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:37:01",
+        "device": "窗",
+        "operation": "1",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 267,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:37:01",
+        "device": "风扇",
+        "operation": "1",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 268,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:39:14",
+        "device": "门",
+        "operation": "0",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 269,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:41:14",
+        "device": "门",
+        "operation": "0",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 270,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:42:00",
+        "device": "门",
+        "operation": "0",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 271,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:42:30",
+        "device": "门",
+        "operation": "0",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 272,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:45:36",
+        "device": "门",
+        "operation": "0",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 273,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:45:36",
+        "device": "窗",
+        "operation": "0",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 274,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:45:36",
+        "device": "风扇",
+        "operation": "1",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 275,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:48:25",
+        "device": "门",
+        "operation": "0",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 276,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:48:25",
+        "device": "窗",
+        "operation": "0",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 277,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:48:25",
+        "device": "风扇",
+        "operation": "1",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 278,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:50:48",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 279,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:50:48",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 280,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:50:48",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 281,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:50:54",
+        "device": "门",
+        "operation": "开",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 282,
+        "controlDate": "2024-10-06",
+        "controlTime": "23:50:54",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 283,
+        "controlDate": "2024-10-07",
+        "controlTime": "0:05:48",
+        "device": "窗",
+        "operation": "开",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 284,
+        "controlDate": "2024-10-07",
+        "controlTime": "0:05:48",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 285,
+        "controlDate": "2024-10-07",
+        "controlTime": "0:07:05",
+        "device": "门",
+        "operation": "关",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 286,
+        "controlDate": "2024-10-07",
+        "controlTime": "0:07:05",
+        "device": "窗",
+        "operation": "关",
+        "controlReason": "自动调整",
+        "userID": null
+    },
+    {
+        "controlID": 287,
+        "controlDate": "2024-10-06",
+        "controlTime": "0:08:15",
+        "device": "风扇",
+        "operation": "开",
+        "controlReason": "系统端更改",
+        "userID": null
+    },
+    {
+        "controlID": 288,
+        "controlDate": "2024-10-06",
+        "controlTime": "0:08:22",
+        "device": "风扇",
+        "operation": "关",
+        "controlReason": "系统端更改",
+        "userID": null
     }
 ]

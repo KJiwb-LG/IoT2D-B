@@ -64,11 +64,11 @@ header {
     flex-grow: 1; /* 使主内容区域占据剩余空间 */  
 }  
 
-.fan-time {  
+.window-time {  
     margin-bottom: 20px;  
 }  
 
-.fan-time label {  
+.window-time label {  
     display: block;  
     margin-bottom: 5px;  
 }  
@@ -117,18 +117,18 @@ th {
 
 
 /* 二阶段更改 */
-.fan-control {  
+.window-control {  
     display: flex;  
     align-items: center; /* 垂直居中 */  
     gap: 10px; /* 元素之间的间隔 */  
     margin-bottom: 25px;
 }  
   
-.fan-control p {  
+.window-control p {  
     margin: 10px; /* 移除段落默认的上下边距 */  
 }  
   
-.fan-button {  
+.window-button {  
     border: none; /* 移除边框 */  
     background-color: #f0f0f0; /* 浅灰色背景 */  
     padding: 8px 16px; /* 内边距 */  
@@ -137,19 +137,19 @@ th {
     transition: background-color 0.3s; /* 平滑的背景色变化 */  
 }  
   
-.fan-button.left {  
+.window-button.left {  
     background-color: #ddd; /* 左侧按钮的初始背景色 */  
 }  
   
-.fan-button.right {  
+.window-button.right {  
     background-color: #b7d8ec; /* 右侧按钮的初始背景色，例如蓝色 */  
     color: rgb(0, 0, 0); /* 文本颜色为白色，以便在蓝色背景上可见 */  
 }  
   
-.fan-button:hover {  
+.window-button:hover {  
     background-color: #ccc; /* 鼠标悬停时的背景色变化，适用于左右按钮 */  
 }  
   
-.fan-button.right:hover {  
+.window-button.right:hover {  
     background-color: #b7d8ec; /* 鼠标悬停在右侧按钮时的特定背景色变化 */  
 }  

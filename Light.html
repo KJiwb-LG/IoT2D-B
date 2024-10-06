@@ -1,12 +1,15 @@
 <!DOCTYPE html>  
 <html lang="en">  
-<head>    
-    <meta charset="UTF-8">    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <title>Light</title>    
-    <link rel="stylesheet" href="Light.css">    
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>   
-</head>
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Light Intensity</title>  
+    <link rel="stylesheet" href="Light.css">  
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">  
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>  
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>   -->
+</head>  
 <body>  
     <header>  
         <h1>Welcome to Smart Home</h1>  
@@ -25,34 +28,19 @@
                 <li><a href="Login.html">退出登录</a></li> 
             </ul>  
         </nav>  
-        <div class="charts_container">  
-            <div class="chart_wrapper">    
-                <p id="currentDate">Date</p> 
-            </div> 
-            <div class="header-row"> <!-- 新的容器用于包含灯图标和当前日期 -->  
-                    <div id="lightpicture">  
-                        <img src="light.png" alt="灯图标" width="50" height="60">  
-                    </div>  
-                    <div class="chart_wrapper">  
-                        <p id="currentLight">currentLight</p> 
-                    </div>  
-            </div> 
+        <div class="chart_container">  
+            <p id="currentDate">Current Date</p>  
             <!-- 选择需要查看的日期 -->
             <label for="datePicker">Select Date:</label>  
             <input type="date" id="datePicker" onchange="updateChart(this.value)">  
-            <div class="chart_wrapper">  
-                <p>Today's lighting intensity</p>  
-                <canvas id="myLineChart"></canvas>  
-            </div>  
-            <div class="chart_wrapper">    
-                <p>Today's light time</p>   
-                <canvas id="myBarChart"></canvas>    
-            </div> 
-            <div class="chart_wrapper">  
-                <p>Today's light Color Distribution</p> 
-                <canvas id="myPieChart"></canvas>  
-            </div>  
-        </div> 
+            <p>Light Intensity</p>  
+            <canvas id="myChart"></canvas>  
+        </div>  
+        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>  
+        <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/min/moment.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1.0.0"></script>
         <script src="Light.js"></script>  
     </div>  
 </body>  
